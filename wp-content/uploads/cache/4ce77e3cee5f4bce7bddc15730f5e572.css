@@ -1,0 +1,77 @@
+    	body{
+    		background-color:#000;
+    	}
+    	
+    	#gameStage{
+    		background-color:#0000ac;
+    		
+    		left: 50%;
+    		margin-left: -300px;
+    		width: 600px;
+    		height: 420px;
+    		position: relative;
+    		border-top: 13px solid #FFF;
+    		border-bottom: 13px solid #FFF;
+    	}
+    	
+    	#gameStage:before{
+    		content: "";
+    		height:403px;
+    		border-left: 13px dotted #FFF;
+    		position: absolute;
+    		left: 293px;
+    		top: 8px;
+    	}
+    	
+    	#player1, #player2{
+    		background-color: #FFF;
+    		width: 13px;
+    		height: 70px;    
+    		position: absolute;		
+    	}
+    	
+    	#ball{
+    		background-color: #FFF;
+    		width:13px;
+    		height: 13px;
+    		position: absolute;
+    	}
+    	
+    	#score{
+    		color: #FFF;
+    		font-size: 3em;
+    		text-align:  center;
+    		position: absolute;
+    		font-family: 'Press Start 2P', cursive;
+    		width: 600px;
+    		top: 13px;
+    	}
+
+
+    	
+    	#gameover, #title{
+    		position: absolute;
+    		background-color:#0000ac;
+    		width: 600px;
+    		height: 420px;
+    		text-align: center;
+    		font-size: 3em;
+    		color: #fff;
+    		font-family: 'Press Start 2P', cursive;
+    		/*padding-top: 150px;*/
+    		display: none;
+    	}
+    	
+      #title h1{
+    		font-size: 1.6em;
+        margin-top : 125px
+    	}
+    	
+      #gameover p, #title p{
+    		font-size: 0.5em;
+    	}
+
+      #title{
+        display: block;
+  
+      } 

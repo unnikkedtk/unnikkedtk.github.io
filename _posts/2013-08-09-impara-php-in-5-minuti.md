@@ -1,0 +1,710 @@
+---
+title: Impara PHP in 5 minuti
+author: unnikked
+layout: post
+permalink: /impara-php-in-5-minuti/
+itsec_enable_ssl:
+  - 
+gadgetry_tfuse_post_options:
+  - 'a:56:{s:22:"gadgetry_disable_image";s:5:"false";s:22:"gadgetry_disable_video";s:5:"false";s:26:"gadgetry_disable_post_meta";s:5:"false";s:23:"gadgetry_disable_author";s:5:"false";s:31:"gadgetry_disable_published_date";s:5:"false";s:24:"gadgetry_disable_coments";s:5:"false";s:28:"gadgetry_disable_author_info";s:5:"false";s:19:"gadgetry_page_title";s:13:"default_title";s:21:"gadgetry_custom_title";s:0:"";s:21:"gadgetry_single_image";s:48:"/wp-content/uploads/2013/08/Elefante-PHP-res.jpg";s:30:"gadgetry_single_img_dimensions";a:2:{i:0;s:3:"586";i:1;s:3:"319";}s:28:"gadgetry_single_img_position";s:9:"alignleft";s:24:"gadgetry_thumbnail_image";s:48:"/wp-content/uploads/2013/08/Elefante-PHP-res.jpg";s:27:"gadgetry_thumbnail_position";s:7:"noalign";s:19:"gadgetry_video_link";s:0:"";s:25:"gadgetry_video_dimensions";a:2:{i:0;s:3:"590";i:1;s:3:"191";}s:23:"gadgetry_video_position";s:10:"alignright";s:23:"gadgetry_header_element";s:7:"without";s:22:"gadgetry_select_slider";s:2:"-1";s:17:"gadgetry_page_map";s:0:"";s:25:"gadgetry_content_ads_post";s:4:"true";s:21:"gadgetry_top_ad_space";s:5:"false";s:21:"gadgetry_top_ad_image";s:0:"";s:19:"gadgetry_top_ad_url";s:0:"";s:23:"gadgetry_top_ad_adsense";s:0:"";s:28:"gadgetry_bfcontent_ads_space";s:5:"false";s:23:"gadgetry_bfcontent_type";s:5:"image";s:25:"gadgetry_bfcontent_number";s:3:"one";s:29:"gadgetry_bfcontent_ads_image1";s:0:"";s:27:"gadgetry_bfcontent_ads_url1";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense1";s:0:"";s:29:"gadgetry_bfcontent_ads_image2";s:0:"";s:27:"gadgetry_bfcontent_ads_url2";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense2";s:0:"";s:29:"gadgetry_bfcontent_ads_image3";s:0:"";s:27:"gadgetry_bfcontent_ads_url3";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense3";s:0:"";s:29:"gadgetry_bfcontent_ads_image4";s:0:"";s:27:"gadgetry_bfcontent_ads_url4";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense4";s:0:"";s:29:"gadgetry_bfcontent_ads_image5";s:0:"";s:27:"gadgetry_bfcontent_ads_url5";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense5";s:0:"";s:29:"gadgetry_bfcontent_ads_image6";s:0:"";s:27:"gadgetry_bfcontent_ads_url6";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense6";s:0:"";s:29:"gadgetry_bfcontent_ads_image7";s:0:"";s:27:"gadgetry_bfcontent_ads_url7";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense7";s:0:"";s:19:"gadgetry_hook_space";s:5:"false";s:19:"gadgetry_hook_image";s:0:"";s:17:"gadgetry_hook_url";s:0:"";s:21:"gadgetry_hook_adsense";s:0:"";s:25:"gadgetry_content_subtitle";s:0:"";s:20:"gadgetry_content_top";s:0:"";s:23:"gadgetry_content_bottom";s:0:"";}'
+dsq_thread_id:
+  - 1589170971
+gadgetry_post_viewed:
+  - 108
+categories:
+  - PHP
+  - Programmazione
+---
+<div align="center">
+  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
+</div>
+
+  
+
+
+<p style="text-align: justify;">
+  <p>
+    Girovagando su <a title="Il mio profilo su Stumbleupon" href="http://www.stumbleupon.com/stumbler/unnikked/" target="_blank">Stumbleupon</a> mi sono imbattuto in una simpatica pagina su cui è presente un listato che mostra le caratteristiche del linguaggio PHP 5. L&#8217;ho trovato molto utile, sintetico ma esauriente, perfetto per chi già conosce un linguaggio di programmazione e vuole iniziare ad utilizzare PHP aggiornandosi sulla sintassi. Ovviamente ogni linguaggio ha le sue peculiarità, i suoi costrutti semantici e altro. A parer mio lo consiglio per chi vuole conoscere la sintassi di PHP velocemente senza perdere tempo in manuali e documentazioni di base.
+  </p>
+  
+  <pre class="decode-attributes:false lang:default decode:true " >&lt;?php // PHP code must be enclosed with &lt;?php tags
+
+// If your php file only contains PHP code, it is best practice
+// to omit the php closing tag.
+
+// Two forward slashes start a one-line comment.
+
+# So will a hash (aka pound symbol) but // is more common
+
+/*
+     Surrounding text in slash-asterisk and asterisk-slash
+     makes it a multi-line comment.
+*/
+
+// Use "echo" or "print" to print output
+print('Hello '); // Prints "Hello " with no line break
+
+// () are optional for print and echo
+echo "World\n"; // Prints "World" with a line break
+// (all statements must end with a semicolon)
+
+// Anything outside &lt;?php tags is echoed automatically
+?&gt;
+Hello World Again!
+&lt;?php
+
+
+/************************************
+ * Types & Variables
+ */
+
+// Variables begin with the $ symbol.
+// A valid variable name starts with a letter or underscore,
+// followed by any number of letters, numbers, or underscores.
+
+// Boolean values are case-insensitive
+$boolean = true;  // or TRUE or True
+$boolean = false; // or FALSE or False
+
+// Integers
+$int1 = 12;   // =&gt; 12
+$int2 = -12;  // =&gt; -12
+$int3 = 012;  // =&gt; 10 (a leading 0 denotes an octal number)
+$int4 = 0x0F; // =&gt; 15 (a leading 0x denotes a hex literal)
+
+// Floats (aka doubles)
+$float = 1.234;
+$float = 1.2e3;
+$float = 7E-10;
+
+// Delete variable
+unset($int1)
+
+// Arithmetic
+$sum        = 1 + 1; // 2
+$difference = 2 - 1; // 1
+$product    = 2 * 2; // 4
+$quotient   = 2 / 1; // 2
+
+// Shorthand arithmetic
+$number = 0;
+$number += 1;      // Increment $number by 1
+echo $number++;    // Prints 1 (increments after evaluation)
+echo ++$number;    // Prints 3 (increments before evaluation)
+$number /= $float; // Divide and assign the quotient to $number
+
+// Strings should be enclosed in single quotes;
+$sgl_quotes = '$String'; // =&gt; '$String'
+
+// Avoid using double quotes except to embed other variables
+$dbl_quotes = "This is a $sgl_quotes."; // =&gt; 'This is a $String.'
+
+// Special characters are only escaped in double quotes
+$escaped   = "This contains a \t tab character.";
+$unescaped = 'This just contains a slash and a t: \t';
+
+// Enclose a variable in curly braces if needed
+$money = "I have $${number} in the bank.";
+
+// Since PHP 5.3, nowdocs can be used for uninterpolated multi-liners
+$nowdoc = &lt;&lt;&lt;'END'
+Multi line
+string
+END;
+
+// Heredocs will do string interpolation
+$heredoc = &lt;&lt;&lt;END
+Multi line
+$sgl_quotes
+END;
+
+// String concatenation is done with .
+echo 'This string ' . 'is concatenated';
+
+
+/********************************
+ * Constants
+ */
+
+// A constant is defined by using define()
+// and can never be changed during runtime!
+
+// a valid constant name starts with a letter or underscore,
+// followed by any number of letters, numbers, or underscores.
+define("FOO",     "something");
+
+// access to a constant is possible by direct using the choosen name
+echo 'This outputs '.FOO;
+
+
+/********************************
+ * Arrays
+ */
+
+// All arrays in PHP are associative arrays (hashmaps),
+
+// Associative arrays, known as hashmaps in some languages.
+
+// Works with all PHP versions
+$associative = array('One' =&gt; 1, 'Two' =&gt; 2, 'Three' =&gt; 3);
+
+// PHP 5.4 introduced a new syntax
+$associative = ['One' =&gt; 1, 'Two' =&gt; 2, 'Three' =&gt; 3];
+
+echo $associative['One']; // prints 1
+
+// List literals implicitly assign integer keys
+$array = ['One', 'Two', 'Three'];
+echo $array[0]; // =&gt; "One"
+
+// Add an element to the end of an array
+$array[] = 'Four';
+
+// Remove element from array
+unset($array[3]);
+
+/********************************
+ * Output
+ */
+
+echo('Hello World!');
+// Prints Hello World! to stdout.
+// Stdout is the web page if running in a browser.
+
+print('Hello World!'); // The same as echo
+
+// echo is actually a language construct, so you can drop the parentheses.
+echo 'Hello World!';
+print 'Hello World!'; // So is print
+
+$paragraph = 'paragraph';
+
+echo 100;        // Echo scalar variables directly
+echo $paragraph; // or variables
+
+// If short open tags are configured, or your PHP version is
+// 5.4.0 or greater, you can use the short echo syntax
+?&gt;
+&lt;p&gt;&lt;?= $paragraph ?&gt;&lt;/p&gt;
+&lt;?php
+
+$x = 1;
+$y = 2;
+$x = $y; // $x now contains the same value as $y
+$z = &$y;
+// $z now contains a reference to $y. Changing the value of
+// $z will change the value of $y also, and vice-versa.
+// $x will remain unchanged as the original value of $y
+
+echo $x; // =&gt; 2
+echo $z; // =&gt; 2
+$y = 0;
+echo $x; // =&gt; 2
+echo $z; // =&gt; 0
+
+// Dumps type and value of variable to stdout
+var_dump($z); // prints int(0)
+
+// Prints variable to stdout in human-readable format
+print_r($array); // prints: Array ( [0] =&gt; One [1] =&gt; Two [2] =&gt; Three )
+
+/********************************
+ * Logic
+ */
+$a = 0;
+$b = '0';
+$c = '1';
+$d = '1';
+
+// assert throws a warning if its argument is not true
+
+// These comparisons will always be true, even if the types aren't the same.
+assert($a == $b); // equality
+assert($c != $a); // inequality
+assert($c &lt;&gt; $a); // alternative inequality
+assert($a &lt; $c);
+assert($c &gt; $b);
+assert($a &lt;= $b);
+assert($c &gt;= $d);
+
+// The following will only be true if the values match and are the same type.
+assert($c === $d);
+assert($a !== $d);
+assert(1 === '1');
+assert(1 !== '1');
+
+// Variables can be converted between types, depending on their usage.
+
+$integer = 1;
+echo $integer + $integer; // =&gt; 2
+
+$string = '1';
+echo $string + $string; // =&gt; 2 (strings are coerced to integers)
+
+$string = 'one';
+echo $string + $string; // =&gt; 0
+// Outputs 0 because the + operator cannot cast the string 'one' to a number
+
+// Type casting can be used to treat a variable as another type
+
+$boolean = (boolean) 1; // =&gt; true
+
+$zero = 0;
+$boolean = (boolean) $zero; // =&gt; false
+
+// There are also dedicated functions for casting most types
+$integer = 5;
+$string = strval($integer);
+
+$var = null; // Null value
+
+
+/********************************
+ * Control Structures
+ */
+
+if (true) {
+    print 'I get printed';
+}
+
+if (false) {
+    print 'I don\'t';
+} else {
+    print 'I get printed';
+}
+
+if (false) {
+    print 'Does not get printed';
+} elseif(true) {
+    print 'Does';
+}
+
+// ternary operator
+print (false ? 'Does not get printed' : 'Does');
+
+$x = 0;
+if ($x === '0') {
+    print 'Does not print';
+} elseif($x == '1') {
+    print 'Does not print';
+} else {
+    print 'Does print';
+}
+
+
+
+// This alternative syntax is useful for templates:
+?&gt;
+
+&lt;?php if ($x): ?&gt;
+This is displayed if the test is truthy.
+&lt;?php else: ?&gt;
+This is displayed otherwise.
+&lt;?php endif; ?&gt;
+
+&lt;?php
+
+// Use switch to save some logic.
+switch ($x) {
+    case '0':
+        print 'Switch does type coercion';
+        break; // You must include a break, or you will fall through
+               // to cases 'two' and 'three'
+    case 'two':
+    case 'three':
+        // Do something if $variable is either 'two' or 'three'
+        break;
+    default:
+        // Do something by default
+}
+
+// While, do...while and for loops are probably familiar
+$i = 0;
+while ($i &lt; 5) {
+    echo $i++;
+}; // Prints "01234"
+
+echo "\n";
+
+$i = 0;
+do {
+    echo $i++;
+} while ($i &lt; 5); // Prints "01234"
+
+echo "\n";
+
+for ($x = 0; $x &lt; 10; $x++) {
+    echo $x;
+} // Prints "0123456789"
+
+echo "\n";
+
+$wheels = ['bicycle' =&gt; 2, 'car' =&gt; 4];
+
+// Foreach loops can iterate over arrays
+foreach ($wheels as $wheel_count) {
+    echo $wheel_count;
+} // Prints "24"
+
+echo "\n";
+
+// You can iterate over the keys as well as the values
+foreach ($wheels as $vehicle =&gt; $wheel_count) {
+    echo "A $vehicle has $wheel_count wheels";
+}
+
+echo "\n";
+
+$i = 0;
+while ($i &lt; 5) {
+    if ($i === 3) {
+        break; // Exit out of the while loop
+    }
+    echo $i++;
+} // Prints "012"
+
+for ($i = 0; $i &lt; 5; $i++) {
+    if ($i === 3) {
+        continue; // Skip this iteration of the loop
+    }
+    echo $i;
+} // Prints "0124"
+
+
+/********************************
+ * Functions
+ */
+
+// Define a function with "function":
+function my_function () {
+  return 'Hello';
+}
+
+echo my_function(); // =&gt; "Hello"
+
+// A valid function name starts with a letter or underscore, followed by any
+// number of letters, numbers, or underscores.
+
+function add ($x, $y = 1) { // $y is optional and defaults to 1
+  $result = $x + $y;
+  return $result;
+}
+
+echo add(4); // =&gt; 5
+echo add(4, 2); // =&gt; 6
+
+// $result is not accessible outside the function
+// print $result; // Gives a warning.
+
+// Since PHP 5.3 you can declare anonymous functions;
+$inc = function ($x) {
+  return $x + 1;
+};
+
+echo $inc(2); // =&gt; 3
+
+function foo ($x, $y, $z) {
+  echo "$x - $y - $z";
+}
+
+// Functions can return functions
+function bar ($x, $y) {
+  // Use 'use' to bring in outside variables
+  return function ($z) use ($x, $y) {
+    foo($x, $y, $z);
+  };
+}
+
+$bar = bar('A', 'B');
+$bar('C'); // Prints "A - B - C"
+
+// You can call named functions using strings
+$function_name = 'add';
+echo $function_name(1, 2); // =&gt; 3
+// Useful for programatically determining which function to run.
+// Or, use call_user_func(callable $callback [, $parameter [, ... ]]);
+
+/********************************
+ * Includes
+ */
+
+&lt;?php
+// PHP within included files must also begin with a PHP open tag.
+
+include 'my-file.php';
+// The code in my-file.php is now available in the current scope.
+// If the file cannot be included (e.g. file not found), a warning is emitted.
+
+include_once 'my-file.php';
+// If the code in my-file.php has been included elsewhere, it will
+// not be included again. This prevents multiple class declaration errors
+
+require 'my-file.php';
+require_once 'my-file.php';
+// Same as include(), except require() will cause a fatal error if the
+// file cannot be included.
+
+// Contents of my-include.php:
+&lt;?php
+
+return 'Anything you like.';
+// End file
+
+// Includes and requires may also return a value.
+$value = include 'my-include.php';
+
+// Files are included based on the file path given or, if none is given,
+// the include_path configuration directive. If the file isn't found in
+// the include_path, include will finally check in the calling script's
+// own directory and the current working directory before failing.
+/* */
+
+/********************************
+ * Classes
+ */
+
+// Classes are defined with the class keyword
+
+class MyClass
+{
+    const MY_CONST      = 'value'; // A constant
+
+    static $staticVar   = 'static';
+
+    // Static variables and their visibility
+    public static $publicStaticVar = 'publicStatic';
+    // Accessible within the class only
+    private static $privateStaticVar = 'privateStatic';
+    // Accessible from the class and subclasses
+    protected static $protectedStaticVar = 'protectedStatic';
+
+    // Properties must declare their visibility
+    public $property    = 'public';
+    public $instanceProp;
+    protected $prot = 'protected'; // Accessible from the class and subclasses
+    private $priv   = 'private';   // Accessible within the class only
+
+    // Create a constructor with __construct
+    public function __construct($instanceProp) {
+        // Access instance variables with $this
+        $this-&gt;instanceProp = $instanceProp;
+    }
+
+    // Methods are declared as functions inside a class
+    public function myMethod()
+    {
+        print 'MyClass';
+    }
+
+    //final keyword would make a function unoverridable
+    final function youCannotOverrideMe()
+    {
+    }
+
+/*
+ * Declaring class properties or methods as static makes them accessible without
+ * needing an instantiation of the class. A property declared as static can not
+ * be accessed with an instantiated class object (though a static method can).
+*/
+
+    public static function myStaticMethod()
+    {
+        print 'I am static';
+    }
+}
+
+echo MyClass::MY_CONST;    // Outputs 'value';
+echo MyClass::$staticVar;  // Outputs 'static';
+MyClass::myStaticMethod(); // Outputs 'I am static';
+
+// Instantiate classes using new
+$my_class = new MyClass('An instance property');
+// The parentheses are optional if not passing in an argument.
+
+// Access class members using -&gt;
+echo $my_class-&gt;property;     // =&gt; "public"
+echo $my_class-&gt;instanceProp; // =&gt; "An instance property"
+$my_class-&gt;myMethod();        // =&gt; "MyClass"
+
+
+// Extend classes using "extends"
+class MyOtherClass extends MyClass
+{
+    function printProtectedProperty()
+    {
+        echo $this-&gt;prot;
+    }
+
+    // Override a method
+    function myMethod()
+    {
+        parent::myMethod();
+        print ' &gt; MyOtherClass';
+    }
+}
+
+$my_other_class = new MyOtherClass('Instance prop');
+$my_other_class-&gt;printProtectedProperty(); // =&gt; Prints "protected"
+$my_other_class-&gt;myMethod();               // Prints "MyClass &gt; MyOtherClass"
+
+final class YouCannotExtendMe
+{
+}
+
+// You can use "magic methods" to create getters and setters
+class MyMapClass
+{
+    private $property;
+
+    public function __get($key)
+    {
+        return $this-&gt;$key;
+    }
+
+    public function __set($key, $value)
+    {
+        $this-&gt;$key = $value;
+    }
+}
+
+$x = new MyMapClass();
+echo $x-&gt;property; // Will use the __get() method
+$x-&gt;property = 'Something'; // Will use the __set() method
+
+// Classes can be abstract (using the abstract keyword) or
+// implement interfaces (using the implements keyword).
+// An interface is declared with the interface keyword.
+
+interface InterfaceOne
+{
+    public function doSomething();
+}
+
+interface InterfaceTwo
+{
+    public function doSomethingElse();
+}
+
+// interfaces can be extended
+interface InterfaceThree extends InterfaceTwo
+{
+    public function doAnotherContract();
+}
+
+abstract class MyAbstractClass implements InterfaceOne
+{
+    public $x = 'doSomething';
+}
+
+class MyConcreteClass extends MyAbstractClass implements InterfaceTwo
+{
+    public function doSomething()
+    {
+        echo $x;
+    }
+
+    public function doSomethingElse()
+    {
+        echo 'doSomethingElse';
+    }
+}
+
+
+// Classes can implement more than one interface
+class SomeOtherClass implements InterfaceOne, InterfaceTwo
+{
+    public function doSomething()
+    {
+        echo 'doSomething';
+    }
+
+    public function doSomethingElse()
+    {
+        echo 'doSomethingElse';
+    }
+}
+
+
+/********************************
+ * Traits
+ */
+
+// Traits are available from PHP 5.4.0 and are declared using "trait"
+
+trait MyTrait
+{
+    public function myTraitMethod()
+    {
+        print 'I have MyTrait';
+    }
+}
+
+class MyTraitfulClass
+{
+    use MyTrait;
+}
+
+$cls = new MyTraitfulClass();
+$cls-&gt;myTraitMethod(); // Prints "I have MyTrait"
+
+
+/********************************
+ * Namespaces
+ */
+
+// This section is separate, because a namespace declaration
+// must be the first statement in a file. Let's pretend that is not the case
+
+&lt;?php
+
+// By default, classes exist in the global namespace, and can
+// be explicitly called with a backslash.
+
+$cls = new \MyClass();
+
+
+
+// Set the namespace for a file
+namespace My\Namespace;
+
+class MyClass
+{
+}
+
+// (from another file)
+$cls = new My\Namespace\MyClass;
+
+//Or from within another namespace.
+namespace My\Other\Namespace;
+
+use My\Namespace\MyClass;
+
+$cls = new MyClass();
+
+// Or you can alias the namespace;
+
+namespace My\Other\Namespace;
+
+use My\Namespace as SomeOtherNamespace;
+
+$cls = new SomeOtherNamespace\MyClass();
+
+*/</pre>
+  
+  <p>
+    Ovviamente la <a title="Manuale PHP" href="http://www.php.net/manual/" target="_blank">documentazione ufficiale</a> di PHP offre ulteriori informazioni sugli argomenti trattati da questo listato.
+  </p>
+  
+  <p>
+    <strong>Fonte</strong>: <a title="learnxinyminutes" href="http://learnxinyminutes.com/docs/php/" target="_blank">http://learnxinyminutes.com/docs/php/</a>
+  </p>
+  
+  <p>
+    Sul sito sono presenti inoltre altri listati simili per altri linguaggi di programmazione.
+  </p>
+  
+  <br />
+  
+  <div align="center">
+    <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
+  </div>
