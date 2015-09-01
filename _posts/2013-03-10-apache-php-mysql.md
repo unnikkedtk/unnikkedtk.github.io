@@ -3,10 +3,6 @@ title: Come configurare un ambiente LAMP
 author: unnikked
 layout: post
 permalink: /apache-php-mysql/
-gadgetry_tfuse_post_options:
-  - 'a:56:{s:22:"gadgetry_disable_image";s:5:"false";s:22:"gadgetry_disable_video";s:5:"false";s:26:"gadgetry_disable_post_meta";s:5:"false";s:23:"gadgetry_disable_author";s:5:"false";s:31:"gadgetry_disable_published_date";s:5:"false";s:24:"gadgetry_disable_coments";s:5:"false";s:28:"gadgetry_disable_author_info";s:5:"false";s:19:"gadgetry_page_title";s:13:"default_title";s:21:"gadgetry_custom_title";s:0:"";s:21:"gadgetry_single_image";s:42:"/wp-content/uploads/2013/03/serverRoom.jpg";s:30:"gadgetry_single_img_dimensions";a:2:{i:0;s:3:"586";i:1;s:3:"319";}s:28:"gadgetry_single_img_position";s:9:"alignleft";s:24:"gadgetry_thumbnail_image";s:42:"/wp-content/uploads/2013/03/serverRoom.jpg";s:27:"gadgetry_thumbnail_position";s:7:"noalign";s:19:"gadgetry_video_link";s:0:"";s:25:"gadgetry_video_dimensions";a:2:{i:0;s:3:"590";i:1;s:3:"191";}s:23:"gadgetry_video_position";s:10:"alignright";s:23:"gadgetry_header_element";s:7:"without";s:22:"gadgetry_select_slider";s:2:"-1";s:17:"gadgetry_page_map";s:0:"";s:25:"gadgetry_content_ads_post";s:4:"true";s:21:"gadgetry_top_ad_space";s:5:"false";s:21:"gadgetry_top_ad_image";s:0:"";s:19:"gadgetry_top_ad_url";s:0:"";s:23:"gadgetry_top_ad_adsense";s:0:"";s:28:"gadgetry_bfcontent_ads_space";s:5:"false";s:23:"gadgetry_bfcontent_type";s:5:"image";s:25:"gadgetry_bfcontent_number";s:3:"one";s:29:"gadgetry_bfcontent_ads_image1";s:0:"";s:27:"gadgetry_bfcontent_ads_url1";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense1";s:0:"";s:29:"gadgetry_bfcontent_ads_image2";s:0:"";s:27:"gadgetry_bfcontent_ads_url2";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense2";s:0:"";s:29:"gadgetry_bfcontent_ads_image3";s:0:"";s:27:"gadgetry_bfcontent_ads_url3";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense3";s:0:"";s:29:"gadgetry_bfcontent_ads_image4";s:0:"";s:27:"gadgetry_bfcontent_ads_url4";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense4";s:0:"";s:29:"gadgetry_bfcontent_ads_image5";s:0:"";s:27:"gadgetry_bfcontent_ads_url5";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense5";s:0:"";s:29:"gadgetry_bfcontent_ads_image6";s:0:"";s:27:"gadgetry_bfcontent_ads_url6";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense6";s:0:"";s:29:"gadgetry_bfcontent_ads_image7";s:0:"";s:27:"gadgetry_bfcontent_ads_url7";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense7";s:0:"";s:19:"gadgetry_hook_space";s:5:"false";s:19:"gadgetry_hook_image";s:0:"";s:17:"gadgetry_hook_url";s:0:"";s:21:"gadgetry_hook_adsense";s:0:"";s:25:"gadgetry_content_subtitle";s:0:"";s:20:"gadgetry_content_top";s:0:"";s:23:"gadgetry_content_bottom";s:0:"";}'
-gadgetry_post_viewed:
-  - 248
 dsq_thread_id:
   - 1128739108
 itsec_enable_ssl:
@@ -18,12 +14,6 @@ categories:
 tags:
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Eccoci qui in un&#8217;altro articolo sui *VPS*, questa volta però tratteremo una modalità di uso comune per un *Virtual Private Server*, ovvero per creare un sito web. Per fare ciò configureremo il così detto ambiente **LAMP** (Linux &#8211; Apache &#8211; MySQL &#8211; PHP) più un servizio **FTP** per permettere lo sviluppo/caricamento dei file più efficiente.
 
@@ -39,7 +29,7 @@ Apache è un software che realizza le funzioni di trasporto delle informazioni, 
 
 <pre class="lang:sh decode:true">adduser nomeutente</pre>
 
-dove *nomeutente* sta per un nome scelto da voi, per esempio: *adduser unnikked,* scegliete una password e premete invio; vi verrà chiesto di compilare una serie di voci per le informazioni dell&#8217;account (non è obbligatorio), che potrete saltarle premendo il tasto invio.
+dove *nomeutente* sta per un nome scelto da voi, per esempio: *adduser unnikked,* scegliete una password e premete invio; vi verrà chiesto di compilare una serie di voci per le informazioni dell&#8217;account (non è obbligatorio), che potrete saltarle premendo il tasto invio.
 
 Prima di rieffettuare l&#8217;accesso al server con le credenziali appena create, dobbiamo configurare il comando sudo. Questo comando permette ad account diversi da* root* di potersi autenticare per un periodo limitato di tempo assumendo gli stessi privilegi del &#8220;*superuser*&#8220;. Apriamo il file *sudoers.tmp* con
 
@@ -73,17 +63,15 @@ inseriamo la password scelta per *nomeutente* e confermiamo. Al termine dell&#82
 
 ![][1]
 
-<div class="su-divider su-divider-style-default" style="margin:15px 0;border-width:3px;border-color:#999999">
-</div>
+---
 
 <span style="line-height: 1.5;">Su linux possiamo gestire i servizi con il comando </span><strong style="line-height: 1.5;">service</strong><span style="line-height: 1.5;">.</span>
 
 <pre class="lang:sh decode:true">service nome_servizio comando</pre>
 
-dove** nome_servizio** sta per il nome del servizio da gestire, per esempio a*pache2*, e comando sta per il comando da eseguire, per esempio *start*, *stop*, *restart*.
+dove **nome_servizio** sta per il nome del servizio da gestire, per esempio *apache2*, e comando sta per il comando da eseguire, per esempio *start*, *stop*, *restart*.
 
-<div class="su-divider su-divider-style-default" style="margin:15px 0;border-width:3px;border-color:#999999">
-</div>
+---
 
 ## My-SQL
 
@@ -105,7 +93,7 @@ Installiamo un* database* di prova con
 
 <pre class="lang:sh decode:true">sudo mysql_install_db</pre>
 
-Ora, *My-SQL *è pronto per essere utilizzato, ma non è adatto per un ambiente produttivo. Per cui eseguiamo il comando
+Ora, *My-SQL*è pronto per essere utilizzato, ma non è adatto per un ambiente produttivo. Per cui eseguiamo il comando
 
 <pre class="lang:sh decode:true">sudo /usr/bin/mysql_secure_installation</pre>
 
@@ -123,7 +111,7 @@ Possiamo ora collegarci all&#8217; interfaccia a linea di comando di *My-SQL* co
 
 <pre class="lang:sh decode:true">sudo mysql -u root -p</pre>
 
-(L&#8217;uso dell&#8217;interfaccia a linea di comando di *My-SQL *non viene trattato in questo articolo).
+(L&#8217;uso dell&#8217;interfaccia a linea di comando di *My-SQL*non viene trattato in questo articolo).
 
 ## PHP
 
@@ -135,8 +123,7 @@ lanciamo questo comando
 
 <pre class="lang:sh decode:true">sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt</pre>
 
-<div class="su-divider su-divider-style-default" style="margin:15px 0;border-width:3px;border-color:#999999">
-</div>
+---
 
 Un&#8217;alternativa all&#8217;interfaccia di comando di *My-SQL* è **phpMyAdmin**, un software scritto in PHP che permette di gestire i database e le tabelle direttamente dal browser.
 
@@ -144,19 +131,12 @@ Per installarlo digitiamo il seguente comando:
 
 <pre class="lang:sh decode:true">sudo apt-get install phpmyadmin</pre>
 
-scegliamo di configurarlo con* apache2*, selezioniamo con *spazio* e confermiamo *invio*. Alla richiesta **Configuration** **phpmyadmin** confermiamo su *yes* e scegliamo una password per l&#8217;account amministrativo di *phpmyadmin*.
+scegliamo di configurarlo con *apache2*, selezioniamo con *spazio* e confermiamo *invio*. Alla richiesta **Configuration** **phpmyadmin** confermiamo su *yes* e scegliamo una password per l&#8217;account amministrativo di *phpmyadmin*.
 
-<div class="su-divider su-divider-style-default" style="margin:15px 0;border-width:3px;border-color:#999999">
-</div>
+---
 
 Abbiamo appena installato un ambiente **LAMP** completo e produttivo, nel prossimo articolo vedremo come installare un server **FTP** per interagire con lo spazio web facilmente.
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2013/03/it_works_3.png
  [2]: /wp-content/uploads/2013/03/scelta-password-mysql.png
