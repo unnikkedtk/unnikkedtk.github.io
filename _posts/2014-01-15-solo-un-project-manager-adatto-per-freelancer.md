@@ -3,10 +3,6 @@ title: 'Solo: un Project Manager adatto per i Freelancer'
 author: unnikked
 layout: post
 permalink: /solo-un-project-manager-adatto-per-freelancer/
-gadgetry_tfuse_post_options:
-  - 'a:56:{s:22:"gadgetry_disable_image";s:5:"false";s:22:"gadgetry_disable_video";s:5:"false";s:26:"gadgetry_disable_post_meta";s:5:"false";s:23:"gadgetry_disable_author";s:5:"false";s:31:"gadgetry_disable_published_date";s:5:"false";s:24:"gadgetry_disable_coments";s:5:"false";s:28:"gadgetry_disable_author_info";s:5:"false";s:19:"gadgetry_page_title";s:13:"default_title";s:21:"gadgetry_custom_title";s:0:"";s:21:"gadgetry_single_image";s:47:"/wp-content/uploads/2013/12/solo-screenshot.png";s:30:"gadgetry_single_img_dimensions";a:2:{i:0;s:3:"586";i:1;s:3:"319";}s:28:"gadgetry_single_img_position";s:9:"alignleft";s:24:"gadgetry_thumbnail_image";s:47:"/wp-content/uploads/2013/12/solo-screenshot.png";s:27:"gadgetry_thumbnail_position";s:7:"noalign";s:19:"gadgetry_video_link";s:0:"";s:25:"gadgetry_video_dimensions";a:2:{i:0;s:3:"590";i:1;s:3:"191";}s:23:"gadgetry_video_position";s:10:"alignright";s:23:"gadgetry_header_element";s:7:"without";s:22:"gadgetry_select_slider";s:2:"-1";s:17:"gadgetry_page_map";s:0:"";s:25:"gadgetry_content_ads_post";s:4:"true";s:21:"gadgetry_top_ad_space";s:5:"false";s:21:"gadgetry_top_ad_image";s:0:"";s:19:"gadgetry_top_ad_url";s:0:"";s:23:"gadgetry_top_ad_adsense";s:0:"";s:28:"gadgetry_bfcontent_ads_space";s:5:"false";s:23:"gadgetry_bfcontent_type";s:5:"image";s:25:"gadgetry_bfcontent_number";s:3:"one";s:29:"gadgetry_bfcontent_ads_image1";s:0:"";s:27:"gadgetry_bfcontent_ads_url1";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense1";s:0:"";s:29:"gadgetry_bfcontent_ads_image2";s:0:"";s:27:"gadgetry_bfcontent_ads_url2";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense2";s:0:"";s:29:"gadgetry_bfcontent_ads_image3";s:0:"";s:27:"gadgetry_bfcontent_ads_url3";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense3";s:0:"";s:29:"gadgetry_bfcontent_ads_image4";s:0:"";s:27:"gadgetry_bfcontent_ads_url4";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense4";s:0:"";s:29:"gadgetry_bfcontent_ads_image5";s:0:"";s:27:"gadgetry_bfcontent_ads_url5";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense5";s:0:"";s:29:"gadgetry_bfcontent_ads_image6";s:0:"";s:27:"gadgetry_bfcontent_ads_url6";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense6";s:0:"";s:29:"gadgetry_bfcontent_ads_image7";s:0:"";s:27:"gadgetry_bfcontent_ads_url7";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense7";s:0:"";s:19:"gadgetry_hook_space";s:5:"false";s:19:"gadgetry_hook_image";s:0:"";s:17:"gadgetry_hook_url";s:0:"";s:21:"gadgetry_hook_adsense";s:0:"";s:25:"gadgetry_content_subtitle";s:0:"";s:20:"gadgetry_content_top";s:0:"";s:23:"gadgetry_content_bottom";s:0:"";}'
-gadgetry_post_viewed:
-  - 70
 itsec_enable_ssl:
   - 
 dsq_thread_id:
@@ -20,12 +16,6 @@ tags:
   - Produttività
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <a title="The free & easy way to manage your projects" href="http://www.getsoloapp.com/" target="_blank">Solo</a> è un&#8217;applicazione gratuita per la gestione di progetti creata appositamente per i freelancer. Si possono creare contatti, gestire compiti, caricare file, tracciare i progressi del progetto e prendere appunti.
 
@@ -55,7 +45,6 @@ usciamo dalla console con il comando `exit` e portiamoci in `/var/www` con il co
 Se siete interessati al significato di questo comando potrete trovare la spiegazione su [explainshell.com][2].
 
 <p align="center">
-  [SALTO] 
   
   <p>
     Estraiamo l&#8217;archivio con:
@@ -169,10 +158,6 @@ Se siete interessati al significato di questo comando potrete trovare la spiegaz
   
   <p align="center">
     <img alt="Solo change Password" src="/wp-content/uploads/2013/12/Screenshot-from-2013-12-29-145259.png" />
-  </p>
-  
-  <p>
-    <!--nextpage-->
   </p>
   
   <h2>
@@ -427,11 +412,6 @@ $CONFIG['email']['enable_encryption'] = 'ssl';</pre>
     Un ultimo consiglio, se si ha la necessità di accedere da remoto all&#8217;applicazione (nel caso di una installazione su un server locale) è quello di <a title="Come configurare un certificato SSL su Apache" href="come-configurare-un-certificato-ssl-su-apache" target="_blank">configurare apache per trasferire i dati in modalità sicura tramite https</a>.
   </p>
   
-  <br />
-  
-  <div align="center">
-    <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-  </div>
 
  [1]: apache-php-mysql "Come configurare un ambiente LAMP"
  [2]: http://explainshell.com/explain?cmd=curl+%27http%3A%2F%2Fwww.getsoloapp.com%2Fserver%2Fdo_download%27+-H+%27DNT%3A+1%27+-H+%27Accept-Encoding%3A+gzip%2Cdeflate%2Csdch%27+-H+%27Host%3A+www.getsoloapp.com%27+-H+%27Accept-Language%3A+it-IT%2Cit%3Bq%3D0.8%2Cen-US%3Bq%3D0.6%2Cen%3Bq%3D0.4%27+-H+%27User-Agent%3A+Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F31.0.1650.57+Safari%2F537.36%27+-H+%27Accept%3A+text%2Fhtml%2Capplication%2Fxhtml%2Bxml%2Capplication%2Fxml%3Bq%3D0.9%2Cimage%2Fwebp%2C*%2F*%3Bq%3D0.8%27+-H+%27Referer%3A+http%3A%2F%2Fwww.getsoloapp.com%2Fdownload%27+-H+%27Cookie%3A+_ga%3DGA1.2.1257010325.1385835780%27+-H+%27Connection%3A+keep-alive%27+--compressed+%3E+solo.zip "explainshell.com"

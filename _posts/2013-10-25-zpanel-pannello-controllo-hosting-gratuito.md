@@ -5,10 +5,6 @@ layout: post
 permalink: /zpanel-pannello-controllo-hosting-gratuito/
 itsec_enable_ssl:
   - 
-gadgetry_tfuse_post_options:
-  - 'a:56:{s:22:"gadgetry_disable_image";s:5:"false";s:22:"gadgetry_disable_video";s:5:"false";s:26:"gadgetry_disable_post_meta";s:5:"false";s:23:"gadgetry_disable_author";s:5:"false";s:31:"gadgetry_disable_published_date";s:5:"false";s:24:"gadgetry_disable_coments";s:5:"false";s:28:"gadgetry_disable_author_info";s:5:"false";s:19:"gadgetry_page_title";s:13:"default_title";s:21:"gadgetry_custom_title";s:0:"";s:21:"gadgetry_single_image";s:38:"/wp-content/uploads/2013/10/ZPanel.png";s:30:"gadgetry_single_img_dimensions";a:2:{i:0;s:3:"586";i:1;s:3:"319";}s:28:"gadgetry_single_img_position";s:9:"alignleft";s:24:"gadgetry_thumbnail_image";s:38:"/wp-content/uploads/2013/10/ZPanel.png";s:27:"gadgetry_thumbnail_position";s:7:"noalign";s:19:"gadgetry_video_link";s:0:"";s:25:"gadgetry_video_dimensions";a:2:{i:0;s:3:"590";i:1;s:3:"191";}s:23:"gadgetry_video_position";s:10:"alignright";s:23:"gadgetry_header_element";s:7:"without";s:22:"gadgetry_select_slider";s:2:"-1";s:17:"gadgetry_page_map";s:0:"";s:25:"gadgetry_content_ads_post";s:5:"false";s:21:"gadgetry_top_ad_space";s:5:"false";s:21:"gadgetry_top_ad_image";s:0:"";s:19:"gadgetry_top_ad_url";s:0:"";s:23:"gadgetry_top_ad_adsense";s:0:"";s:28:"gadgetry_bfcontent_ads_space";s:5:"false";s:23:"gadgetry_bfcontent_type";s:5:"image";s:25:"gadgetry_bfcontent_number";s:3:"one";s:29:"gadgetry_bfcontent_ads_image1";s:0:"";s:27:"gadgetry_bfcontent_ads_url1";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense1";s:0:"";s:29:"gadgetry_bfcontent_ads_image2";s:0:"";s:27:"gadgetry_bfcontent_ads_url2";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense2";s:0:"";s:29:"gadgetry_bfcontent_ads_image3";s:0:"";s:27:"gadgetry_bfcontent_ads_url3";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense3";s:0:"";s:29:"gadgetry_bfcontent_ads_image4";s:0:"";s:27:"gadgetry_bfcontent_ads_url4";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense4";s:0:"";s:29:"gadgetry_bfcontent_ads_image5";s:0:"";s:27:"gadgetry_bfcontent_ads_url5";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense5";s:0:"";s:29:"gadgetry_bfcontent_ads_image6";s:0:"";s:27:"gadgetry_bfcontent_ads_url6";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense6";s:0:"";s:29:"gadgetry_bfcontent_ads_image7";s:0:"";s:27:"gadgetry_bfcontent_ads_url7";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense7";s:0:"";s:19:"gadgetry_hook_space";s:5:"false";s:19:"gadgetry_hook_image";s:0:"";s:17:"gadgetry_hook_url";s:0:"";s:21:"gadgetry_hook_adsense";s:0:"";s:25:"gadgetry_content_subtitle";s:0:"";s:20:"gadgetry_content_top";s:0:"";s:23:"gadgetry_content_bottom";s:0:"";}'
-gadgetry_post_viewed:
-  - 213
 dsq_thread_id:
   - 1899756719
 categories:
@@ -18,12 +14,6 @@ categories:
 tags:
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <p style="text-align: left;">
   <code>ZPanel</code> è una piattaforma che fornisce un pannello di controllo per servizi di Hosting, è gratuito, open source e multipiattaforma.
@@ -101,7 +91,7 @@ Enter Your Time Zone: Europe/Rome</pre>
   </div>
 </div>
 
-Successivamente verrà chiesto di inserire il `<span class="su-tooltip" data-close="no" data-behavior="hover" data-my="bottom center" data-at="top center" data-classes="su-qtip qtip-bootstrap su-qtip-size-default" data-title="Fully Qualified Domain Name" title="Un FQDN (acronimo di Fully Qualified Domain Name) è un nome di dominio non ambiguo che specifica la posizione assoluta di un nodo all&#039;interno della gerarchia dell&#039;albero DNS. Per distinguere un FQDN da un nome di dominio standard si aggiunge il nome dell&#039;host alla stringa del dominio, in modo da renderla assoluta.">Fully Qualified Domain Name</span>` per il vostro server, cioè un nome dominio reale che punta sulla vostra macchina:
+Successivamente verrà chiesto di inserire il <span class="su-tooltip" data-close="no" data-behavior="hover" data-my="bottom center" data-at="top center" data-classes="su-qtip qtip-bootstrap su-qtip-size-default" data-title="Fully Qualified Domain Name" title="Un FQDN (acronimo di Fully Qualified Domain Name) è un nome di dominio non ambiguo che specifica la posizione assoluta di un nodo all&#039;interno della gerarchia dell&#039;albero DNS. Per distinguere un FQDN da un nome di dominio standard si aggiunge il nome dell&#039;host alla stringa del dominio, in modo da renderla assoluta.">Fully Qualified Domain Name</span> per il vostro server, cioè un nome dominio reale che punta sulla vostra macchina:
 
 <div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-closed">
   <div class="su-spoiler-title">
@@ -167,10 +157,3 @@ Una volta terminata l&#8217;installazione possiamo accedere al pannello di contr
 <img class="aligncenter" alt="" src="/wp-content/uploads/2013/10/zpanel_dashboard.png" />
 
 Per maggiori informazioni su come configurare il pannello di controllo vi rimando alla lettura della <a title="ZPanel Documentation " href="http://docs.zpanelcp.com/" target="_blank">documentazione</a> ufficiale.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

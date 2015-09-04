@@ -5,10 +5,6 @@ layout: post
 permalink: /java-networking-introduzione/
 itsec_enable_ssl:
   - 
-gadgetry_tfuse_post_options:
-  - 'a:56:{s:22:"gadgetry_disable_image";s:5:"false";s:22:"gadgetry_disable_video";s:5:"false";s:26:"gadgetry_disable_post_meta";s:5:"false";s:23:"gadgetry_disable_author";s:5:"false";s:31:"gadgetry_disable_published_date";s:5:"false";s:24:"gadgetry_disable_coments";s:5:"false";s:28:"gadgetry_disable_author_info";s:5:"false";s:19:"gadgetry_page_title";s:13:"default_title";s:21:"gadgetry_custom_title";s:0:"";s:21:"gadgetry_single_image";s:42:"/wp-content/uploads/2014/03/networking.jpg";s:30:"gadgetry_single_img_dimensions";a:2:{i:0;s:3:"586";i:1;s:3:"319";}s:28:"gadgetry_single_img_position";s:9:"alignleft";s:24:"gadgetry_thumbnail_image";s:42:"/wp-content/uploads/2014/03/networking.jpg";s:27:"gadgetry_thumbnail_position";s:7:"noalign";s:19:"gadgetry_video_link";s:0:"";s:25:"gadgetry_video_dimensions";a:2:{i:0;s:3:"590";i:1;s:3:"191";}s:23:"gadgetry_video_position";s:10:"alignright";s:23:"gadgetry_header_element";s:7:"without";s:22:"gadgetry_select_slider";s:2:"-1";s:17:"gadgetry_page_map";s:0:"";s:25:"gadgetry_content_ads_post";s:4:"true";s:21:"gadgetry_top_ad_space";s:5:"false";s:21:"gadgetry_top_ad_image";s:0:"";s:19:"gadgetry_top_ad_url";s:0:"";s:23:"gadgetry_top_ad_adsense";s:0:"";s:28:"gadgetry_bfcontent_ads_space";s:5:"false";s:23:"gadgetry_bfcontent_type";s:5:"image";s:25:"gadgetry_bfcontent_number";s:3:"one";s:29:"gadgetry_bfcontent_ads_image1";s:0:"";s:27:"gadgetry_bfcontent_ads_url1";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense1";s:0:"";s:29:"gadgetry_bfcontent_ads_image2";s:0:"";s:27:"gadgetry_bfcontent_ads_url2";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense2";s:0:"";s:29:"gadgetry_bfcontent_ads_image3";s:0:"";s:27:"gadgetry_bfcontent_ads_url3";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense3";s:0:"";s:29:"gadgetry_bfcontent_ads_image4";s:0:"";s:27:"gadgetry_bfcontent_ads_url4";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense4";s:0:"";s:29:"gadgetry_bfcontent_ads_image5";s:0:"";s:27:"gadgetry_bfcontent_ads_url5";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense5";s:0:"";s:29:"gadgetry_bfcontent_ads_image6";s:0:"";s:27:"gadgetry_bfcontent_ads_url6";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense6";s:0:"";s:29:"gadgetry_bfcontent_ads_image7";s:0:"";s:27:"gadgetry_bfcontent_ads_url7";s:0:"";s:31:"gadgetry_bfcontent_ads_adsense7";s:0:"";s:19:"gadgetry_hook_space";s:5:"false";s:19:"gadgetry_hook_image";s:0:"";s:17:"gadgetry_hook_url";s:0:"";s:21:"gadgetry_hook_adsense";s:0:"";s:25:"gadgetry_content_subtitle";s:156:"Utilizzando Java vedremo come sia possibile creare facilmente applicazioni distribuite. Ma prima &egrave; necessario introdurre alcuni concetti elementari. ";s:20:"gadgetry_content_top";s:0:"";s:23:"gadgetry_content_bottom";s:0:"";}'
-gadgetry_post_viewed:
-  - 146
 dsq_thread_id:
   - 2484749747
 dw-grid:
@@ -17,15 +13,8 @@ categories:
   - Internet
   - Java
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 I computer che si collegano ad Internet comunicano tra di loro utilizzando sia <a title="Transmission Control Protocol - Da Wikipedia, l'enciclopedia libera." href="http://it.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank">Transmission Control Protocol</a> (**TCP**) che <a title="User Datagram Protocol - Da Wikipedia, l'enciclopedia libera." href="http://it.wikipedia.org/wiki/User_Datagram_Protocol" target="_blank">User Datagram Protocol</a> (**UDP**), come mostra il diagramma<sup>[<a id="note1back" href="#note1">1</a>]</sup> schematicamente:  
-<!--more-->
 
 <p align="center">
   <img alt="1netw" src="/wp-content/uploads/2013/12/1netw.gif" />
@@ -71,17 +60,10 @@ Nella connessione basata su *datagrammi* come **UDP**, il pacchetto datagramma c
 
 I numeri di porta vanno da **** a **65.535** poiché rappresentate da un numero a 16 bit (2<sup>16</sup>). I numeri di porta che vanno da **** a **1023** sono riservati; sono riservati per l&#8217;uso da parte dei sevizi noti come **HTTP** e **FTP** e altri servizi di sistema. Queste porte sono chiamate <a title="Lista di porte standard - Da Wikipedia, l'enciclopedia libera." href="http://it.wikipedia.org/wiki/Lista_di_porte_standard" target="_blank">well-known ports</a>. Le applicazioni scritte non dovrebbero cercare di legarsi (*bind*) a queste.
 
-* * *
+---
 
 <sup>[<a id="note1"></a>1]</sup> Il così detto stack TPC/IP, va comunque menzionato lo standard <a title="Open Systems Interconnection - Da Wikipedia, l'enciclopedia libera." href="http://it.wikipedia.org/wiki/Open_Systems_Interconnection" target="_blank">ISO/OSI</a>.[**↑**][1]  
 <sup>[<a id="note2"></a>2]</sup> Attualmente si è alla versione 6 dello standard (<a title="IPv6 - Da Wikipedia, l'enciclopedia libera." href="http://it.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a>).[**↑**][2]
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: #note1back
  [2]: #note2back

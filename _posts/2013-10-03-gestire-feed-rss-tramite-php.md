@@ -3,12 +3,8 @@ title: Gestire un feed RSS tramite PHP
 author: unnikked
 layout: post
 permalink: /gestire-feed-rss-tramite-php/
-gadgetry_tfuse_post_options:
-  - 
 itsec_enable_ssl:
   - 
-gadgetry_post_viewed:
-  - 109
 dsq_thread_id:
   - 1821691183
 categories:
@@ -20,13 +16,7 @@ tags:
   - feed rss
   - xml
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
-
+ 
 Con l&#8217;avvento dei <a title="Blog - Wikipedia" href="http://it.wikipedia.org/wiki/Blog" target="_blank">blog</a> e più in generale dei portali che offrono agli utenti la fruizione di notizie, si è venuta a creare la necessità di definire uno standard per l&#8217;interscambio di informazioni. Il formato <a title="RSS - Wikipedia" href="http://it.wikipedia.org/wiki/RSS" target="_blank"><code>RSS</code></a> è uno standard basato su <a title="XML - Wikipedia" href="http://it.wikipedia.org/wiki/XML" target="_blank"><code>XML</code></a> che permette di definire una serie di regole per la generazione dei contenuti.
 
 Un esempio di utilizzo dei flussi RSS, sono gli aggregatori online di questo formato, in modo da permettere all&#8217;utente di gestire in maniera centralizzata le varie notizie provenienti dai vari portali di informazioni presenti sul web.
@@ -82,10 +72,3 @@ $simple = simplexml_load_file('feed.rss');
 Il metodo `simplexml_load_file` restituisce un oggetto di tipo `<a title="PHP Documentation - SimpleXMLElement" href="http://www.php.net/manual/en/class.simplexmlelement.php" target="_blank">SimpleXMLElement</a>`; tale classe *incapsula* al proprio interno i *nodi* del file `XML` per cui la lettura del metodo è di facile comprensione. Per tanto accedendo ai vari campi della classe (anche in modo gerarchico come si evince dall&#8217;esempio) è possibile attraversare la struttura del file `XML`.
 
 <del>Un esempio di esecuzione dello script è disponibile qui.</del>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

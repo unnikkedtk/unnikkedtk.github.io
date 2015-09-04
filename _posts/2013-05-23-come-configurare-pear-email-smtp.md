@@ -3,10 +3,6 @@ title: Come configurare Pear per inviare email tramite SMTP
 author: unnikked
 layout: post
 permalink: /come-configurare-pear-email-smtp/
-gadgetry_tfuse_post_options:
-  - 
-gadgetry_post_viewed:
-  - 155
 itsec_enable_ssl:
   - 
 dsq_thread_id:
@@ -21,12 +17,6 @@ tags:
   - SMTP
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Un ambiente LAMP che si rispetti deve avere la possibilità di inviare email, l&#8217;invio di email è utile per quei siti che utilizzano un servizio di newsletter, conferma account e altro. Negli articoli <a title="Come configurare un ambiente LAMP" href="http://unnikked.tk/apache-php-mysql/" target="_blank"><em>Come configurare un ambiente LAMP</em></a> e <a title="Come configurare ProFTPD" href="http://unnikked.tk/come-configurare-proftpd/" target="_blank"><em>&#8220;Come configurare ProFTPD&#8221;</em></a> abbiamo visto come configurare un ambiente adatto per ospitare un sito web e lavorare nel modo più efficiente possibile.
 
@@ -62,7 +52,8 @@ In questo articolo vedremo come installare i componenti necessari per far funzio
   Dopo aver riavviato apache testiamo il tutto con questo semplice script:
 </p>
 
-<pre class="lang:php decode:true">&lt;?php
+```php
+<?php
 	require_once "Mail.php";
 
 	//in $host va inserito l'indirizzo del server SMTP
@@ -95,7 +86,7 @@ In questo articolo vedremo come installare i componenti necessari per far funzio
 	//invia l'email secondo i parametri in $headers e destinatario $to
 	$email = $smtp-&gt;send($to, $headers, "Ciao, questo è un messaggio di prova");
 
-?&gt;</pre>
+```
 
 <p style="text-align: justify;">
   Credo che i commenti spieghino da solo come va configurato per essere utilizzato. Una volta configurato eseguiamolo nel browser e se tutto è andato bene non otteniamo nessun messaggio di errore, riceveremo nella casella email specificata l&#8217;email che ci siamo autoinviati!
@@ -109,7 +100,8 @@ In questo articolo vedremo come installare i componenti necessari per far funzio
   Alcuni server SMTP richiedono l&#8217;autenticazione cifrata tramite SSL per l&#8217;invio delle email, questo snippet di codice mostra come impostare tale autenticazione.
 </p>
 
-<pre class="lang:php decode:true">&lt;?php
+```php
+<?php
  require_once "Mail.php";
 
  $from = "Sender &lt;sender@example.com&gt;";
@@ -139,11 +131,4 @@ In questo articolo vedremo come installare i componenti necessari per far funzio
   } else {
    echo("&lt;p&gt;Message successfully sent!&lt;/p&gt;");
   }
- ?&gt;</pre>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
+```
