@@ -11,12 +11,6 @@ categories:
 tags:
   - Open Source
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Durante l&#8217;utilizzo della linea di comandi spesso ci si può ritrovare nella situazione in cui si ha bisogno di rieseguire un comando scritto poco prima, il classico metodo è quello di premere il tasto &#8220;feccetta su&#8221; e scorrere la cronologia per trovare il comando digitato. 
 
@@ -73,10 +67,3 @@ Eseguendo la combinazione `Ctrl-/` (`Ctrl-shift-/`) è possibile visualizzare tr
 ## Conclusioni
 
 Sebbene esista già un meccanismo simile già integrato nella console, (`Ctrl-r` avvia la ricerca inversa) personalmente ritengo **hstr** uno strumento valido per l&#8217;utilizzo della cronologia della console dei comandi in modo facile è intuitivo, per chi come me esegue gran parte dei comandi tramite shell questa piccola utility darà un tocco di freschezza alle proprie sessioni su console. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

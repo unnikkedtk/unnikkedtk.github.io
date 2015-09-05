@@ -13,12 +13,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Con il numero crescente di persone che utilizzano diversi dispositivi (smartphone, computer, tablet ecc) la necessità di mantenere tutto sincronizzato aumenta.
 
@@ -205,12 +199,6 @@ Per creare un utente:
 
 E&#8217; ora possibile iniziare la sincronizzazione dei calendari e dei contatti. E&#8217; possibile utilizzare qualsiasi client CalDAV e CardDAV per la connessione al server, bisogna utilizzare il nome dominio configurato come hostname. Nota alcuni client necessitano che come username deve essere fornito la email dell&#8217;utente. 
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: https://unnikked.tk/wp-content/uploads/2015/06/baikal-wizard.png
  [2]: https://unnikked.tk/wp-content/uploads/2015/06/baikal-database-setup.png

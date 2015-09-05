@@ -11,12 +11,6 @@ categories:
 tags:
   - Laravel
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <a href="http://laravel.com/" title="Laravel - The PHP Framework For Artisans" target="_blank">Laravel</a> Homestead è una box per Vagrant pre-configurata che fornisce un ambiente di sviluppo ideale senza richiedere l&#8217;installazione di PHP, HHVM, un web server e qualsiasi altro software sulla macchina locale.
 
@@ -125,10 +119,3 @@ Per far funzionare correttamente la macchina virtuale è necessario aggiungere a
 L&#8217;indirizzo IP mostrato è quello impostato nel file `Homestead.yaml`. Una volta aggiunto il dominio al file hosts è possibile accedere al sito tramite il browser. 
 
 `http://homestead.app`
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

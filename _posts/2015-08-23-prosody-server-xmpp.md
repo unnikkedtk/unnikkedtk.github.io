@@ -11,12 +11,6 @@ categories:
 tags:
   - XMPP
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Prosody è un <a href="https://prosody.im/" target="_blank">server</a> <a href="https://it.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol" target="_blank">XMPP</a>/<a href="http://www.jabber.org/" target="_blank">Jabber</a> scritto in Lua con lo scopo di essere semplice e leggero. Prosody usa meno risorse rispetto ad altri progetti simili ed è progettato per essere semplice da configurare ed usare. <a href="https://www.ejabberd.im/" target="_blank">Ejabberd</a> o <a href="http://www.igniterealtime.org/projects/openfire/" target="_blank">OpenFire</a> potrebbero essere progetti più mirati per applicazioni più grandi, ma per la maggior parte degli utilizzi su piccola scala Prosody è la soluzione più efficiente in termini di risorse.
 
@@ -95,10 +89,3 @@ Una volta aggiunti un paio di account di prova è possibile testare il corretto 
 ## Conclusioni
 
 Abbiamo appena completato una installazione elementare di Prosody, non adatta ad essere utilizzata sulla rete Internet pubblica, questo articolo serve come trampolino per la configurazione finale di un client XMPP che funziona tramite browser web, ovvero <a href="http://getkaiwa.com" target="_blank">Kaiwa</a>.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

@@ -13,12 +13,6 @@ tags:
   - Linux Basics
   - networking
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Vedremo tramite un esempio la funzione svolta dal file `/etc/hosts` presente in qualsiasi distribuzione GNU/Linux e maggiore sistema operativo presente nel mercato. 
 
@@ -63,10 +57,3 @@ Ovviamente tutti questi cambiamenti hanno effetto solo sulla macchina locale e n
 Se non vuoi o puoi modificare il file hosts presente sulla tua macchina locale è possibile utilizzare questo servizio chiamato <a href="xip.io" title="wildcard DNS for everyone" target="_blank">xip.io</a> .
 
 Permette di ottenere lo stesso effetto del file hosts nel qual caso si voglia avere un nome dominio per un indirizzo ip locale, basta digitare nella barra degli indirizzi un url nel formato `indirizzoiplocale.xip.io` (Es: `127.0.0.1.xip.io`)
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

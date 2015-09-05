@@ -12,12 +12,6 @@ tags:
   - vagrant
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Ho parlato spesso del concetto di <a href="quali-sono-i-vantaggi-di-virtualbox" title="Quali sono i vantaggi di VirtualBox ?" target="_blank">macchina virtuale</a> nel mio blog, arrivando a fornire delle istruzioni piuttosto dettagliate su come <a href="lambiente-ideale-per-sviluppare-in-php-mysql" title="L’ambiente ideale per sviluppare in PHP e MySQL" target="_blank">creare un ambiente virtuale adatto per lo sviluppo</a>.
 
@@ -138,10 +132,3 @@ Per maggiori informazioni vi consiglio di consultare la documentazione ufficiale
 ## Conclusioni
 
 La tecnologia fa passi da gigante di giorno in giorno, le macchine virtuali unita alla potenza di calcolo odierna ci permette di creare infrastrutture complesse in modo sicuro ed efficiente. Conoscere gli strumenti adatti è fondamentale per poter lavorare e imparare in modo produttivo. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

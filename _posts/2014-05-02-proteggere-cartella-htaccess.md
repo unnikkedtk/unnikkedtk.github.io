@@ -11,12 +11,6 @@ tags:
   - apache
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Quello che andremo a vedere in questo breve articolo è una tecnica che ci consentirà di proteggere con password una cartella tramite una funzionalità nativa di **<a href="tag/apache/" title="Articoli correlati. " target="_blank">Apache</a>** utilizzando il file `.htaccess`.
 
@@ -44,10 +38,3 @@ Ovviamente è possibile aggiungere ulteriori utenti al file `.htaccess`, è nece
 Accoppiare questo metodo basilare di autenticazione con l&#8217;uso di un certificato <a href="come-configurare-un-certificato-ssl-su-apache" title="Come configurare un certificato SSL su Apache" target="_blank">SSL self-signed</a> oppure rilasciato da una <a href="http://it.wikipedia.org/wiki/Certificate_authority" title="Certificate authority - Da Wikipedia, l'enciclopedia libera." target="_blank">Certification Authorithy</a> si renderà il processo di autenticazione più sicuro. 
 
 Tale espediente può essere utilizzato sia su <a href="http://unnikked.tk/tag/vps/" title="Articoli correlati a VPS" target="_blank">server VPS</a> o su hosting condiviso che supporti tale funzionalità di Apache. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

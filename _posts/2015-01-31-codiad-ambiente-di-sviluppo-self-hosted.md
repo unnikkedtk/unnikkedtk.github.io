@@ -12,12 +12,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Codiad è un ambiente di sviluppo integrato (IDE) minimale e che presenta molte caratteristiche.
 
@@ -115,10 +109,3 @@ Visitando l&#8217;indirizzo di Codiad è possibile accedere alla piattaforma per
 Sono presenti svariati <a href="http://market.codiad.com/" title="Codiad - Plugin" target="_blank">plugin</a> con cui è possibile estendere le capacità di questa applicazione, dall&#8217;integrazione con git a strumenti per la collaborazione in team. 
 
 Buon coding! 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

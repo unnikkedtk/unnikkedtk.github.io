@@ -8,12 +8,6 @@ dsq_thread_id:
 categories:
   - Senza categoria
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Se c&#8217;è una cosa che non riesco proprio a far convivere sulla mia distribuzione GNU/Linux è un ambiente di sviluppo semplice per **PHP** e **MySQL**.
 
@@ -57,10 +51,3 @@ E per finire modifico di conseguenza il file <a href="guida-file-hosts-in-linux"
 </div>
 
 E voi come avete configurato il vostro ambiente di sviluppo ? 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

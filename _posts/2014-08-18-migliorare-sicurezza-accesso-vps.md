@@ -12,12 +12,6 @@ tags:
   - SSH
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Quando mettiamo per la prima volta le mani su un nuovo server è necessario garantire sempre alcune precauzioni di sicurezza, specialmente se il server è esposto sulla rete pubblica.
 
@@ -40,7 +34,6 @@ Successivamente eseguiremo un ulteriore passo. Non permetteremo agli utenti di c
   1. Creare una chiave SSH sulla macchina locale
   2. Disabilitare l&#8217;autenticazione basata su password al nostro server
 
-<!--nextpage-->
 
 ## Creare un nuovo utente</h3> 
 
@@ -109,8 +102,6 @@ ssh username@server-ip
 # Se hai cambiato la porta di default
 ssh -p 1234 username@yserver-ip</pre>
 
-<!--nextpage-->
-
 ## Accesso tramite chiavi SSH
 
 Possiamo ancora rendere più sicuro l&#8217;accesso ad un `VPS` disabilitando l&#8217;inserimento della password per gli utenti. Ciò significa che gli utenti possono solo effettuare l&#8217;accesso tramite una chiave `SSH` valida. 
@@ -123,46 +114,42 @@ ssh-keygen -t rsa -b 4096 -C tua@email.com -f id_identitaserver</pre>
   * `-t rsa` &#8211; crea le chiavi RSA
   * `-b 4096` &#8211; usa 4096 bit.
   * `-C tua@email.com` &#8211; le chiavi possono avere commenti. Spesso l&#8217;identità di un utente va qui come la sua casella email
-  * `-f id_identitaserver` &#8211; il nome dei file creati (id\_identitaserver e id\_identitaserver.pub in questo caso) </ul> 
-    Verrà chiesta una password. Si può lasciare questo campo vuoto (per accesso senza password) o inserire una password. E&#8217; consigliato usarne una dal momento che renderà la vita difficile agli attaccanti, avranno bisogno sia della chiave privata e sia la password `SSH` per poter accedere. 
+  * `-f id_identitaserver` &#8211; il nome dei file creati (id\_identitaserver e id\_identitaserver.pub in questo caso)
     
-    Bisogna notare che la password `SSH` creata non è la password dell&#8217;utente per utilizzare comandi sudo sul server.
+Verrà chiesta una password. Si può lasciare questo campo vuoto (per accesso senza password) o inserire una password. E&#8217; consigliato usarne una dal momento che renderà la vita difficile agli attaccanti, avranno bisogno sia della chiave privata e sia la password `SSH` per poter accedere. 
     
-    Ora abbiamo creato una chiave privata (`id_identitaserver`) e una chiave pubblica (`id_identitaserver.pub`). 
+Bisogna notare che la password `SSH` creata non è la password dell&#8217;utente per utilizzare comandi sudo sul server.
     
-    Abbiamo bisogno di inserire la chiave pubblica sul server, in questo modo il server conosce che è una chiave autorizzata per essere utilizzata per l&#8217;accesso. 
+Ora abbiamo creato una chiave privata (`id_identitaserver`) e una chiave pubblica (`id_identitaserver.pub`). 
     
-    Copiamo il contenuto della chiave pubblica nel file `authorized_keys` presente nel server:
+Abbiamo bisogno di inserire la chiave pubblica sul server, in questo modo il server conosce che è una chiave autorizzata per essere utilizzata per l&#8217;accesso. 
     
-    <pre class="lang:sh decode:true " >cat ~/.ssh/id_rsa.pub | ssh username@ipserver "mkdir -p ~/.ssh && cat &gt;&gt; ~/.ssh/authorized_keys"</pre>
+Copiamo il contenuto della chiave pubblica nel file `authorized_keys` presente nel server:
+  
+<pre class="lang:sh decode:true " >cat ~/.ssh/id_rsa.pub | ssh username@ipserver "mkdir -p ~/.ssh && cat &gt;&gt; ~/.ssh/authorized_keys"</pre>
     
-    Una volta importata la chiave, dovremmo essere in grado di accedere utilizzandla. 
+Una volta importata la chiave, dovremmo essere in grado di accedere utilizzandla. 
     
-    Non è necessario fare niente, durante la fase di accesso il client SSH dovrebbe tentare di accedere tramite le chiavi per prima e, trovandone una, accedere tramite essa.
+Non è necessario fare niente, durante la fase di accesso il client SSH dovrebbe tentare di accedere tramite le chiavi per prima e, trovandone una, accedere tramite essa.
     
-    Sarà necessario inserire la password creata durante la generazione delle chiavi `SSH`, se abbiamo scelto di utilizzare una password. 
+Sarà necessario inserire la password creata durante la generazione delle chiavi `SSH`, se abbiamo scelto di utilizzare una password. 
     
-    E&#8217; consigliabile cambiare i <a href="permessi-file-chmod" title="Come impostare i permessi ai file con “chmod”" target="_blank">permessi</a> della cartella `.ssh` e del file `authorized_keys`.
+E&#8217; consigliabile cambiare i <a href="permessi-file-chmod" title="Come impostare i permessi ai file con “chmod”" target="_blank">permessi</a> della cartella `.ssh` e del file `authorized_keys`.
     
-    <pre class="lang:sh decode:true " >chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys</pre>
+<pre class="lang:sh decode:true " >chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys</pre>
     
-    L&#8217;ultimo passo da effettuare è di dire al server di accettare solo accessi remoti tramite chiavi `SSH` (disabilitando la possibilità di accesso tramite password). 
+L&#8217;ultimo passo da effettuare è di dire al server di accettare solo accessi remoti tramite chiavi `SSH` (disabilitando la possibilità di accesso tramite password). 
     
-    Modificheremo il file `/etc/ssh/sshd_config`
+Modificheremo il file `/etc/ssh/sshd_config`
     
-    <pre class="lang:sh decode:true " >vim /etc/ssh/sshd_config</pre>
+<pre class="lang:sh decode:true " >vim /etc/ssh/sshd_config</pre>
     
-    Una volta dentro, troviamo o creiamo la direttiva `PasswordAuthentication` e impostiamola su `"no"`
+Una volta dentro, troviamo o creiamo la direttiva `PasswordAuthentication` e impostiamola su `"no"`
     
-    <pre class="lang:sh decode:true " >PasswordAuthentication no</pre>
+<pre class="lang:sh decode:true " >PasswordAuthentication no</pre>
     
-    Salviamo il file e riavviamo il demone `SSH`: 
+Salviamo il file e riavviamo il demone `SSH`: 
     
-    <pre class="lang:sh decode:true " >sudo service ssh restart</pre>
-    
-    E&#8217; consigliabile testare che le modifiche funzionino correttamente prima di uscire dalla sessione `SSH` corrente. 
-    
-      
-    <div align="center">
-      <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-    </div>
+<pre class="lang:sh decode:true " >sudo service ssh restart</pre>
+
+E&#8217; consigliabile testare che le modifiche funzionino correttamente prima di uscire dalla sessione `SSH` corrente. 

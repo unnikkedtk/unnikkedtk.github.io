@@ -12,12 +12,6 @@ tags:
   - VirtualBox
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 In un vecchio articolo ho parlato quali siano i vantaggi dell&#8217;utilizzo di uno strumento come <a href="quali-sono-i-vantaggi-di-virtualbox" title="Quali sono i vantaggi di VirtualBox ?" target="_blank">VirtualBox</a>.
 
@@ -194,10 +188,3 @@ E riavviamo l&#8217;istanza di Virtualbox.
 </p>
 
 Ora possiamo configurare il file <a href="guida-file-hosts-in-linux" title="Guida al file hosts in Linux" target="_blank">hosts</a> per permettere di raggiungere facilmente nella rete interna il VPS senza memorizzare l&#8217;indirizzo di rete.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

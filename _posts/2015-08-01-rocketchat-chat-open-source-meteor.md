@@ -13,12 +13,6 @@ tags:
   - Open Source
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 RocketChat mira a fornire una soluzione open source per creare una chat per team di collaborazione, si ispira a <a href="http://slack.com" target="_blank">Slack</a> che è una delle soluzioni più famose del momento.
 
@@ -108,10 +102,3 @@ L&#8217;applicazione sarà disponibile presso `http://localhost:3000` o `http://
 Sebbene il progetto sia ancora alle prime fasi ritengo che gli sviluppatori propongono una soluzione valida ed open source per le chat progettate appositamente per team di sviluppo o team di collaborazione. 
 
 Con il progresso tecnologico e l&#8217;avvento di Internet non è raro trovare aziende i cui componenti sono sparsi per il globo. Avere gli strumenti adatti è una strategia vincente per la gestione e produttività del team. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

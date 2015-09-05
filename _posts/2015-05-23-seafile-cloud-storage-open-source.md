@@ -15,12 +15,6 @@ tags:
   - Open Source
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Seafile è un sistema di archiviazione cloud <a href="https://github.com/haiwen/seafile" title="Seafile su github" target="_blank">open source</a> con le caratteristiche di protezione privacy e supporto per gruppi di lavoro. 
 
@@ -163,12 +157,5 @@ Al primo avvio di `seahub` verranno chieste alcune informazioni per la configura
 </p>
 
 Una volta avviato `seafile` e `seahub` è possibile collegarsi all&#8217;interfaccia ed iniziare ad usare l&#8217;applicazione. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/04/seafile-dashboard.png

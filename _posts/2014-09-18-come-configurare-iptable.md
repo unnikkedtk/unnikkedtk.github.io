@@ -12,12 +12,6 @@ categories:
 tags:
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Il firewall di linux offre alcune protezioni base per il server. Sfortunatamente, iptable è il firewall standard ed è un po&#8217; difficile da usare.
 
@@ -205,10 +199,3 @@ Quando abbiamo applicato le regole, riavviamo `iptables-persistent`
     $ sudo service iptables-persistent restart
 
 E queste sono le regole basi per mettere in sicurezza il vostro server!
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

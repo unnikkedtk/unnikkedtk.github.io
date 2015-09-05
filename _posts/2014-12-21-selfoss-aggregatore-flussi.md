@@ -13,12 +13,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 In questo articolo tratterò finalmente uno dei miei progetti preferiti <a href="https://github.com/SSilence/selfoss" title="GitHub - SSilence/selfoss" target="_blank">open source</a> self hosted: <a href="http://selfoss.aditu.de/" title="Selfoss" target="_blank">selfoss</a>. 
 
@@ -822,7 +816,7 @@ class listtimeline extends \spouts\twitter\usertimeline {
 	    );
 	}
 
-    public function load($params) {
+  public function load($params) {
         $twitter = new \TwitterOAuth($params['consumer_key'], $params['consumer_secret']);
         $timeline = $twitter-&gt;get('lists/statuses', array('slug' =&gt; $params['slug'], 'owner_screen_name' =&gt; $params['owner_screen_name'], 'include_rts' =&gt; 1, 'count' =&gt; 50));
         if(isset($timeline-&gt;error))
@@ -849,10 +843,3 @@ Sono inoltre disponibile le app per <a href="https://play.google.com/store/apps/
 ### Ulteriori estensioni
 
 Effettuando una <a href="https://github.com/search?utf8=%E2%9C%93&#038;q=selfoss" title="Selfoss su Github" target="_blank">ricerca</a> su github è possibile vedere come la comunità abbia creato diverse app che si integrano tramite l&#8217;utilizzo delle API alla propria istanza di selfoss. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

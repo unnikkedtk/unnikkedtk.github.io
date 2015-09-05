@@ -9,12 +9,6 @@ categories:
   - C
   - Programmazione
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Nel <a href="/puntatori-di-c/" title="I puntatori di C" target="_blank">precedente articolo</a> abbiamo introdotto i puntatori di C e le operazioni di base ad essi applicabili, in questo articolo affronteremo l&#8217;uso dei puntatori con gli array. 
 
@@ -97,10 +91,3 @@ Tuttavia non possiamo scrivere:
 <pre class="lang:c decode:true " >my_array = ptr;</pre>
 
 Il motivo è che `ptr` è una variabile mentre `my_array` è una costante. Cioè l'indirizzo in cui il primo elemento di `my_array` viene salvato non può essere cambiato una volta che è stato dichiarato `my_array[]`.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

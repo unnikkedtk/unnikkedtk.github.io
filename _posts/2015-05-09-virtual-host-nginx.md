@@ -10,12 +10,6 @@ categories:
 tags:
   - nginx
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Su Ubuntu, Nginx segue lo schema ordinario per le configurazioni (come Apache). Ecco i file e le cartelle che si trovano in `/etc/nginx`:
 
@@ -238,11 +232,5 @@ Ecco il significato di ogni singola direttiva:
   * **charset** &#8211; E&#8217; consigliato usare sempre UTF-8.
   * **location** &#8211; Nginx può usare un blocco locazione insieme ad un percorso file o espressione regolare per far corrispondere URL o file per gestirli in modo diverso. In questo esempio qualsiasi locazione viene catturata, successivamente la direttiva `try_files` cercherà di trovare un file nell&#8217;ordine in cui gli schemi sono stati specificati. Di default cerca di usare un URL esplicito per trovare un file, seguito da un nome di una cartella e infine risponde con un errore 404 se non viene trovato alcuna corrispondenza. 
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/04/nginx-vhosts.png

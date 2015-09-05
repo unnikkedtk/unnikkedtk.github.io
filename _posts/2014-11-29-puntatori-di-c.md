@@ -11,12 +11,6 @@ categories:
   - C
   - Programmazione
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Il linguaggio di programmazione C è uno tra i linguaggi ad alto livello tra i più potenti che un programmatore ha a sua disposizione. Benché sia un linguaggio di programmazione ad alto livello permette anche di manipolare alcuni aspetti più di basso livello di un calcolatore, per cui può essere considerato un linguaggio di &#8220;medio&#8221; livello.
 
@@ -98,10 +92,3 @@ L&#8217;operatore `*` è detto di **dereferenziazione**, cioè si accede in memo
 </p>
 
 L&#8217;immagine mostra una situazione tipica in memoria, nelle celle di indirizzo `0x0` e `0x3` sono memorizzati due variabili. Nella cella di indirizzo `0x5` è salvato un puntatore che punta alla cella di indirizzo `0x0`. Utilizzando l&#8217;operatore `*` sul puntatore si otterrà il valore 2, non dereferenziando il puntatore (quindi utilizzando direttamente rvalue) si otterrà `0x0` che non rappresenta un intero ma bensì un indirizzo di memoria.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

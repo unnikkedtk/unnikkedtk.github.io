@@ -11,12 +11,6 @@ categories:
 tags:
   - DNS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Quando si pianifica la progettazione di un sito web, una delle fasi è la registrazione del dominio.
 
@@ -35,10 +29,3 @@ Sebbene registrare un dominio implica sostenere un costo irrisorio rispetto l&#8
 Purtroppo la rete ci ha insegnato che quando si offre un servizio gratuitamente esso viene preso d&#8217;assalto e spesso abusato e le <a title="Cosa ne pensate dei domini .tk ?" href="http://www.quag.com/question/6461/cosa-ne-pensate-dei-domini-tk/" target="_blank">opinioni a riguardo</a> non sono sempre positive.
 
 Lo scopo di questo piccolo articolo è di dare visibilità ad un servizio che, secondo me, vale la pena essere utilizzato poiché dà la possibilità di mettere mano su certi aspetti di Internet e del Web senza particolari costi, senza un dominio `.tk` non avrei mai avuto lo stimolo di aprire questo blog.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

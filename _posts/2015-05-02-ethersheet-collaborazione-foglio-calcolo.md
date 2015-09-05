@@ -14,12 +14,6 @@ tags:
   - Open Source
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Ethersheet è uno strumento <a href="https://github.com/ethersheet-collective/EtherSheet" title="Ethersheet su GitHub" target="_blank">open source</a> per <a href="https://ethersheet.org" title="Ethersheet" target="_blank">collaborare</a> su fogli di calcolo in modo facile, veloce e sicuro. 
 
@@ -93,13 +87,6 @@ Per calcolare la costante matematica Pi Greco basta inserire in qualsiasi cella 
 ![ethersheet-pi][3]
 
 Lascio a voi la scoperta delle funzionalità di Ethersheet. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/04/ethersheet-configjs.png
  [2]: /wp-content/uploads/2015/04/ethersheet-create.png

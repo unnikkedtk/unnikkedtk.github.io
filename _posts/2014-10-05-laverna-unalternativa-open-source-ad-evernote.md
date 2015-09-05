@@ -14,12 +14,6 @@ tags:
   - Produttività
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <a href="https://laverna.cc" title="Laverna - store your notes anonymously and encrypted" target="_blank">Laverna</a> è una applicazione web in scritta in <a href="http://it.wikipedia.org/wiki/JavaScript" title="JavaScript - Wikipedia" target="_blank">Javascript</a> che consente di creare note personali, integra un editor <a href="http://daringfireball.net/projects/markdown" title="Daring Fireball: Markdown" target="_blank">Markdown</a> e supporta la crittografia delle note. E&#8217; <a href="https://github.com/Laverna/laverna" title="Laverna/laverna · GitHub" target="_blank">open source</a> e mira a fornire un&#8217;alternativa ad <a href="https://www.evernote.com/" title="Evernote: The workspace for your life's work" target="_blank">Evernote</a>. 
 
@@ -131,10 +125,3 @@ Dopo aver spostato il contenuto della cartella nella cartella principale dell&#8
 <p align="center">
   <img src="/wp-content/uploads/2014/06/laverna_hostinger.png" alt="laverna_hostinger" />
 </p>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

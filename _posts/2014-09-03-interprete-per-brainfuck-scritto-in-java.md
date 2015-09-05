@@ -11,12 +11,6 @@ categories:
 tags:
   - Brainfuck
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Sin da ragazzino mi sono sempre chiesto come si facesse a comandare un computer tramite un linguaggio di programmazione.
 
@@ -125,7 +119,8 @@ Il linguaggio dispone di otto istruzioni elementari, di cui due usate per l&#821
 
 Data la specifica del linguaggio scrivere il relativo interprete per Brainfuck è banale.
 
-<pre class="lang:java decode:true " >import java.util.*;
+```java
+import java.util.*;
 public class Brainfuck {
     private Scanner sc = new Scanner(System.in);
     private final int LENGTH = 65535;
@@ -173,15 +168,14 @@ public class Brainfuck {
     public static void main(String[] args) {
         new Brainfuck().interpret(args[0]);
     }
-}</pre>
+}
+```
 
 Il codice sorgente proposto assume che il programma dato in input sia corretto sintatticamente. La memoria è rappresentato da un array di `byte` come richiesto dalla specifica. La variabile di istanza `dataPointer` memorizza la cella di memoria puntata (manipolata dalle istruzioni + &#8211; > <).
 
 Bisogna prestare attenzione alle istruzioni di salto (branching) [ e ].
 
 Ogni qualvolta si incontra l&#8217;istruzione [ bisogna trovare la corrispondente istruzione di chiusura ] 
-
-<!--nextpage-->
 
 ## Da Brainfuck a Java
 
@@ -285,7 +279,8 @@ Ogni istruzione Brainfuck corrisponde ad un istruzione di un linguaggio ad alto 
 
 Anche in questo caso il codice Java è molto semplice
 
-<pre class="lang:java decode:true " >public class BrainfuckToJava {
+```java
+public class BrainfuckToJava {
 	private StringBuilder source;
 	private int ident;
 	
@@ -324,13 +319,7 @@ Anche in questo caso il codice Java è molto semplice
 	public static void main(String[] args) {
 		new BrainfuckToJava(args[0]);
 	}
-}</pre>
+}
+```
 
 Bisogna prestare attenzione che la <a title="JVM - Wikipedia" href="http://it.wikipedia.org/wiki/Macchina_virtuale_Java" target="_blank">Java Virtual Machine</a> non permette <a title="StackOverflow" href="http://stackoverflow.com/a/2408005" target="_blank">metodi che abbiano una dimensione maggiore di 64KB</a> per tanto, lunghissimi programmi scritti in Brainfuck potrebbero non essere eseguiti dalla JVM, sebbene la traduzione sia corretta.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

@@ -12,12 +12,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <a href="https://github.com/sdelements/lets-chat" title="Let's Chat - Github repository" target="_blank">Let&#8217;s Chat</a> è una chat self-hosted pensata per piccoli gruppi. Supporta messaggi persistenti, room multiple, avvisi per nuovi messaggi, menzioni (@unnikked), integrazione di immagine, incolla codice, caricamento file, SSL/TLS. E&#8217; licenziata sotto la <a href="http://it.wikipedia.org/wiki/Licenza_MIT" title="Licenza MIT - Wikipedia" target="_blank">Licenza MIT</a>. 
 
@@ -52,10 +46,3 @@ Avviamo l&#8217;applicazione con:
 L&#8217;applicazione sarà disponibile presso l&#8217;indirizzo del vostro server sulla porta `5000`. 
 
 Piccolo neo del progetto: la documentazione è assente.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

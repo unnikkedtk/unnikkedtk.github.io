@@ -14,12 +14,6 @@ tags:
   - Open Source
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Abbiamo visto come tramite <a href="ngrok-tunnel-sicuri-su-localhost" target="_blank">ngrok</a> sia possibile aprire tunnel locali per esporre un servizio web su Internet.
 
@@ -191,12 +185,5 @@ Anche in questo caso bisogna usare un file di configurazione per istruire al cli
 
 <pre class="lang:yaml decode:true " >server_addr: example.com:4443
 trust_host_root_certs: true</pre>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/05/ngrok-cloudflare-cname.png

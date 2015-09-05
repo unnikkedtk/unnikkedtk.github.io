@@ -13,12 +13,6 @@ tags:
   - Open Source
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 ngrok è uno strumento che permette di aprire tunnel sulla rete per poter esporre un servizio installato sulla macchina locale su Internet. 
 
@@ -216,10 +210,3 @@ Può essere configurato per poter essere eseguito dietro ad un server proxy http
 <pre class="lang:yaml decode:true " >http_proxy: "http://user:password@10.0.0.1:3128"
 tunnels:
   ...</pre>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

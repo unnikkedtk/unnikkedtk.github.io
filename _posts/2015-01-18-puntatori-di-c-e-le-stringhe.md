@@ -9,12 +9,6 @@ categories:
   - C
   - Programmazione
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 ## I puntatori e le stringhe
 
@@ -63,10 +57,3 @@ La direttiva `const` comunica al compilatore che il valore di source non può pi
 Il metodo restituisce un puntatore di tipo char che punta alla nuova stringa copiata.
 
 Va messo in evidenza una differenza semantica tra `*ptr++` e `(*ptr)++`: nel primo caso si avanza effettivamente nell&#8217;array utilizzando l&#8217;aritmetica dei puntatori, nel secondo caso si incrementa il valore della cella puntata da ptr.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

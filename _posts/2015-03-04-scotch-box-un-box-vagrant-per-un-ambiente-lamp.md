@@ -13,12 +13,6 @@ tags:
   - lamp
   - vagrant
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Recentemente ho <a title="Come gestire macchine virtuali tramite Vagrant" href="gestire-macchine-virtuali-vagrant" target="_blank">introdotto</a> l&#8217;utilizzo di Vagrant per il deploy di macchine virtuali, ho descritto la possibilità di usare box già configurati in modo tale da risparmiare tempo e semplificare le operazioni.
 
@@ -154,12 +148,5 @@ Ovviamente tale Box potrà essere personalizzata con gli strumenti necessari, è
 Consiglio l&#8217;utilizzo di uno <a title="Apache Virtual Host Manager" href="https://github.com/unnikked/Apache-VirtualHost-Manager" target="_blank">script</a> da me ideato per la gestione dei <a title="Guida ai Virtual Host di Apache" href="guida-ai-virtual-host-di-apache" target="_blank">Virtual Host di Apache</a> e la lettura di <a title="Guida al file hosts in Linux" href="guida-file-hosts-in-linux" target="_blank">questo articolo</a> per la gestione dei file host per creare falsi domini locali e raggiungere dunque facilmente i siti web in sviluppo.
 
 Segnalo che il `VagrantFile` monta automaticamente la directory di progetto Vagrant in /var/www per tanto è utile per mantenere i propri file sulla macchina host e dunque semplificando il trasferimento dei file senza usare strumenti come <a title="Come configurare ProFTPD" href="come-configurare-proftpd" target="_blank">FTP</a> o <a title="SSHFS: client per montare un file system remoto tramite SSH" href="sshfs-montare-file-system-remoto" target="_blank">SSHFS</a>.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: https://scotch.io/wp-content/uploads/2014/10/nice-shot.jpg

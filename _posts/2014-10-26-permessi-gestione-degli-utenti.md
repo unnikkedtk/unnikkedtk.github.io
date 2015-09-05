@@ -11,12 +11,6 @@ tags:
   - Linux Basics
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 ## Permessi
 
@@ -179,10 +173,3 @@ per cambiare gruppo a tutti i file e cartelle (la direttiva `-R` significa &#822
 <pre class="lang:default decode:true " >sudo chmod -R g+rwx /var/www</pre>
 
 Per assegnare i permessi di lettura, scrittura ed esecuzione al gruppo ricorsivamente.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

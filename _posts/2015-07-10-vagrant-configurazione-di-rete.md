@@ -10,12 +10,6 @@ categories:
 tags:
   - vagrant
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Abbiamo visto come Vagrant sia uno strumento valido per la <a href="gestire-macchine-virtuali-vagrant" target="_blank">gestione</a> di macchine virtuali, abbiamo visto come, attraverso un semplice script bash, sia possibile effettuare il <a href="https://unnikked.tk/vagrant-shell-provisioning/" target="_blank">provisioning</a> di una box. 
 
@@ -147,10 +141,3 @@ Viene specificato usando la clausola `:bridge` alla definizione di rete.
 <pre class="lang:ruby decode:true " >config.vm.network "public_network", bridge: 'en1: Wi-Fi (AirPort)'</pre>
 
 La stringa identifica l&#8217;interfaccia desiderata e deve corrispondere esattamente con il nome di una interfaccia disponibile. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

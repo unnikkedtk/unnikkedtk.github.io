@@ -11,12 +11,6 @@ categories:
 tags:
   - CloudFlare
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Il 6 Agosto 2014, Google <a href="http://googlewebmastercentral.blogspot.it/2014/08/https-as-ranking-signal.html" title="HTTPS as a ranking signal" target="_blank">annuncia</a> sul blog googlewebmastercentral che inizierà a prendere in considerazione anche il fattore https per il ranking sul motore di ricerca. 
 
@@ -50,11 +44,5 @@ E scegliere la modalità più consona:
 
 Dopo qualche minuto il vostro sito sarà raggiungibile tramite HTTPS, come il mio sito web.
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2014/11/Schermata-da-2014-11-01-131840.png

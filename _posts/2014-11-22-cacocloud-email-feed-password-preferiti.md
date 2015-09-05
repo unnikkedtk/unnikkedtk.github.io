@@ -8,12 +8,6 @@ dsq_thread_id:
 categories:
   - Novità
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <a href="http://cacodaimon.github.io/CacoCloud/" title="A SIMPLE, FAST AND SECURE SELF HOSTED FEED AND MAIL READER, PASSWORD AND BOOKMARK MANAGER." target="_blank">CacoCloud</a> è un gestore feed, password, preferiti e client mail sviluppato in PHP e AngularJS. 
 
@@ -147,10 +141,3 @@ Tramite la comoda interfaccia è possibile gestire le proprie password.
 <p align="center">
   <img src="/wp-content/uploads/2014/11/Schermata-da-2014-11-21-124901.png" alt="CacoCloud - Password" />
 </p>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

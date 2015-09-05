@@ -10,12 +10,6 @@ categories:
 tags:
   - GitHub
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Sebbene non effettui molti push nell&#8217;arco di una giornata utilizzo molto assiduamente GitHub, per seguire sviluppatori, progetti o leggere codice per scoprire come un determinato problema venga risolto dalla comunità. 
 
@@ -97,12 +91,5 @@ Caratteristiche che ho trovato molto utile è quella di attivare l&#8217;autotag
 Sebbene siano app semplici e non indispensabili sono comunque un esempio di come le API di un servizio possano essere sfruttare per aggiungere valore alla piattaforma. 
 
 Personalmente apprezzo sempre queste tipologie di applicazioni di nicchia ben curate nella loro semplicità e funzionalità.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/05/gistbox-search.png

@@ -9,12 +9,6 @@ categories:
   - Linux
   - Ubuntu
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 jrnl è una applicazione che permette di gestire un diario personale tramite la riga dei comandi. Le voci del diario sono salvate in un file di testo &#8211; puoi inserirlo nella cartella di Dropbox per una sincronizzazione istantanea e avrai la certezza il tuo diario sarà anche leggibile nel futuro, poiché utilizza un file di testo per salvare i dati.
 
@@ -311,10 +305,3 @@ E&#8217; possibile anche sovrascrivere le opzioni di default per ogni diario ind
 I diari `default` e `food` non verranno crittografati, mentre il diario work sì. 
 
 Cambiare `encrypt` ad un valore diverso non crittograferà o decrittograferà i file di diario, afferma semplicemente se il diario è crittografato. Quindi cambiando manualmente questa opzione potrebbe rendere impossibile la lettura del diario. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

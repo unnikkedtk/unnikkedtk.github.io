@@ -12,12 +12,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 TimesApp è un&#8217;applicazione opensource adatta per quella categoria di persone che sono alla ricerca di una webapp che le permette di tracciare il tempo, mirata per freelancer e piccole imprese. 
 
@@ -78,7 +72,8 @@ Creiamo un database MySQL per l&#8217;applicazione
 
 Ora modifichiamo il file `app/Config/database.php` secondo le credenziali del nostro server
 
-<pre class="lang:default decode:true " >public $default = array(
+```php
+public $default = array(
         'datasource' =&gt; 'Database/Mysql',
         'persistent' =&gt; false,
         'host' =&gt; 'localhost',
@@ -87,7 +82,8 @@ Ora modifichiamo il file `app/Config/database.php` secondo le credenziali del no
         'database' =&gt; 'timesapp',
         'prefix' =&gt; '',
         'encoding' =&gt; 'utf8',
-    );</pre>
+    );
+```
 
 E importiamo il file `.SQL` di default
 
@@ -100,10 +96,3 @@ E&#8217; richiesta per l&#8217;applicazione che sia <a href="http://stackoverflo
 Possiamo ora visitare l&#8217;applicazione ed effettuare l&#8217;accesso con le credenziali di default `admin@timesapp.com` con password `Admin1234`.
 
 E&#8217; caldamente consigliato dunque di cambiare le credenziali di accesso una volta installata l&#8217;applicazione. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

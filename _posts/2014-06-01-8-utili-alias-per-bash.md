@@ -10,12 +10,6 @@ categories:
   - SysAdmin
   - Ubuntu
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Una caratteristica che ho sempre apprezzato dei sistemi GNU/Linux è la grande personalizzazione che è possibile effettuare ad esso.
 
@@ -114,12 +108,5 @@ questo script crea un alias a seconda della propria versione di python installat
 Può capitare di avere la necessità di conoscere l&#8217;indirizzo IP pubblico associato alla macchina, invece di visitare un sito ad hoc è possibile interrogare direttamente un server DNS che vi restituirà il vostro indirizzo IP pubblico:
 
 <pre class="lang:default decode:true ">alias myip='dig +short myip.opendns.com @resolver1.opendns.com'</pre>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: apache-php-mysql "Come configurare un ambiente LAMP"

@@ -10,12 +10,6 @@ categories:
 tags:
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Kanboard è un progetto open source e self-hosted che mira a fornire uno strumento per la gestione di compiti utilizzando la metodologia kanban.
 
@@ -139,10 +133,3 @@ Rimuovere il file zip scaricato:
 <pre class="lang:sh decode:true " >sudo rm kanboard-latest.zip</pre>
 
 L&#8217;username e la password di default sono **admin/admin**, pertanto consiglio di cambiare subito le credenziali una volta installato kanboard. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

@@ -14,12 +14,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Un compito fondamentale per un amministratore di sistema è il monitoring dei server. Esistono svariate soluzioni professionali per tale scopo. 
 
@@ -56,12 +50,5 @@ e scompattarlo con l&#8217;utility unzip:
 E consigliabile <a href="proteggere-cartella-htaccess" title="Come proteggere tramite password una cartella attraverso .htaccess" target="_blank">proteggere la cartella</a> in cui risiede *linux dash* poiché mostra molte informazioni circa gli applicativi installati, tale informazioni potrebbero essere sfruttate da malintenzionati per un attacco malevole. 
 
 Personalmente utilizzo questo script per monitorare il <a href="come-ottenere-e-configurare-un-server-vps" title="Come ottenere e configurare un server VPS" target="_blank">VPS</a> presso cui è ospitato il blog, trovo comodo poter dare un&#8217;occhiata veloce ai parametri del server (anche da mobile dato che l&#8217;interfaccia è sviluppata con <a href="getbootstrap.com" title="Bootstrap - front end framework" target="_blank">bootstrap</a>, quindi è <a href="http://it.wikipedia.org/wiki/Design_responsivo" title="Design responsivo - Da Wikipedia, l'enciclopedia libera." target="_blank">responsive</a>) senza dover necessariamente [accedere via ssh][1]. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: come-connettersi-al-proprio-vps "Come connettersi al proprio VPS tramite SSH"

@@ -11,12 +11,6 @@ tags:
   - Reportr
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Reportr è una applicazione completa che funziona come una dashboard personale per tracciare gli eventi (utilizza API molto semplici).
 
@@ -130,13 +124,6 @@ Per visualizzare il grafico ho dovuto personalizzare la visualizzazione
 <p align="center">
   <img src="/wp-content/uploads/2015/04/reportr-customize.png" alt="reportr-customize" />
 </p>
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/03/reportr-preview.png
  [2]: /wp-content/uploads/2015/04/reportr-visualization.png

@@ -9,12 +9,6 @@ categories:
   - PHP
   - Programmazione
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 <a title="Composer" href="https://getcomposer.org/" target="_blank">Composer</a> è un gestore di pacchetti per PHP, simile a <a title="Python PIP" href="http://en.wikipedia.org/wiki/Pip_%28package_manager%29" target="_blank">pip</a> per Python, <a title="RubyGems" href="http://en.wikipedia.org/wiki/RubyGems" target="_blank">gem</a> per ruby e <a title="NPM" href="https://www.npmjs.com/" target="_blank">npm</a> per <a title="Come installare Node.js su Debian, Ubuntu e derivate" href="installare-node-js-su-ubuntu" target="_blank">Node</a>. Permette di definire un file <a title="Il formato JSON" href="il-formato-json" target="_blank">JSON</a> per elencare le dipendenze del codice cercando di risolvere questi vincoli per l&#8217;utente scaricando e installando i pacchetti software necessari.
 
@@ -81,10 +75,3 @@ $log-&gt;addWarning('Foo');</pre>
 ## Conclusioni
 
 Avere a disposizione un gestore di pacchetti ci aiuta a risparmiare tempo nella risoluzione delle dipendenze di un software. Oggi giorno si tendono a sviluppare applicazioni sempre più complesse che utilizzano moduli software già esistenti, ben sviluppati e robusti. Una risoluzione manuale delle dipendenze non solo è noiosa ma anche soggetta ad errori, ecco come i gestori di pacchetti ci semplificano la vita.
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>

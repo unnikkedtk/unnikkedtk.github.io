@@ -11,12 +11,6 @@ tags:
   - Open Source
   - Self Hosted
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Chi naviga molto su Internet sa bene che gestire i propri preferiti è faticoso, con l&#8217;avvento dei dispositivi mobili intelligenti quali smarthphone e tablet, viene fuori la necessità di poter accedere ai propri preferiti ovunque, avere dunque un luogo centralizzato sembra essere la soluzione ideale.
 
@@ -142,7 +136,8 @@ e usciamo dalla console digitando:
 
 Ora dobbiamo aggiornare il file di configurazione precedentemente creato, ovvero `database.php`, apriamolo con l&#8217;editor di testo preferito e compiliamo i dati necessari:
 
-<pre class="lang:php decode:true">if ($_SERVER['HTTP_HOST'] == 'localhost') { // If local, load this
+```php
+if ($_SERVER['HTTP_HOST'] == 'localhost') { // If local, load this
   $db['default']['hostname'] = '127.0.0.1';
   $db['default']['username'] = 'root';
   $db['default']['password'] = 'root';
@@ -154,7 +149,8 @@ Ora dobbiamo aggiornare il file di configurazione precedentemente creato, ovvero
   $db['default']['password'] = 'password';
   $db['default']['database'] = 'unmark';
 
-}</pre>
+}
+```
 
 Successivamente tramite browser raggiungiamo l&#8217;installazione di unmark `http://tuodominio.com/cartella/unmark/setup`
 
@@ -247,12 +243,6 @@ Per aggiornare unmark basta eseguire questi semplici passaggi:
 
 Ovviamente, prima di effettuare qualsiasi aggiornamento è consigliabile avere una copia di backup di unmark, nel caso l&#8217;aggiornamento non andasse a buon fine.
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: crea-il-tuo-sito-web-su-hostinger-it "Crea il tuo sito web su Hostinger.it"
  [2]: apache-php-mysql "Come configurare un ambiente LAMP"

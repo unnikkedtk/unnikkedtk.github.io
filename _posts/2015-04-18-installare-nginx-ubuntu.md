@@ -12,12 +12,6 @@ tags:
   - nginx
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Nginx è una leggera <a href="http://nginx.org/" title="nginx news" target="_blank">alternativa</a> ad Apache, è simile a [NodeJS][1], HAProxy e le altre tecnologie &#8220;scalabili sul web&#8221;. Ha acquisito una notevole popolarità rispetto ad Apache negli ultimi periodi. 
 
@@ -66,13 +60,6 @@ Per verificare che il server è installato, interroghiamo il server tramite curl
 ![nginx-installed][3]
 
 Se il risultato è simile a quello mostrato in figura il server è stato correttamente installato. 
-
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: installare-node-js-su-ubuntu "Come installare Node.js su Debian, Ubuntu e derivate"
  [2]: java-networking-socket-tcp "Java Networking : Socket TCP"

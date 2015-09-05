@@ -11,12 +11,6 @@ categories:
 tags:
   - vagrant
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 Il modo più semplice per preparare una base box è usare un file di scripting per l&#8217;interprete dei comandi che verrà eseguito sulla macchina virtuale. Ciò consente di non imparare tool specifici come Pupper, Ansible o simili. 
 
@@ -161,11 +155,5 @@ La struttura della cartella finale dovrebbe somigliare a:
 
 Dopo aver eseguito `vagrant up` si dovrebbe essere in grado di accedere la pagina visitando `localhost:8931` nel browser. 
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/04/vagrant-shell-provision-folder-structure.png

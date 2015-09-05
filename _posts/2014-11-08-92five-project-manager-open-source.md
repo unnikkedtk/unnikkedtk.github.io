@@ -12,12 +12,6 @@ tags:
   - Self Hosted
   - VPS
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 92five è un gestore progetti open source, è possibile installarlo su qualsiasi server che soddisfa le seguenti caratteristiche:
 
@@ -235,9 +229,3 @@ Riavviamo apache per applicare le modifiche:
       <p>
         Visitando l&#8217;url di installazione è possibile utilizzare l&#8217;applicazione.
       </p>
-      
-      <br />
-      
-      <div align="center">
-        <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-      </div>

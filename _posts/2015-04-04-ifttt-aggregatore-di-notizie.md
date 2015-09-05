@@ -10,12 +10,6 @@ categories:
 tags:
   - IFTTT
 ---
-<div align="center">
-  <!-- unnikked - responsive - header --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="2778724254" data-ad-format="auto"></ins>
-</div>
-
-  
-
 
 IFTTT è uno strumento che ci permette di automatizzare le azioni sul web sfruttando i più noti servizi già presenti, ne ho parlato molto tempo fa in <a title="Rendi automatiche le tue azioni con If This Then That" href="automatizza-if-this-then-that" target="_blank">questo</a> articolo.
 
@@ -134,12 +128,6 @@ Con questa ricetta invece è possibile ricevere una notifica push tramite PushBu
 
 Per poter creare le ricette bisogna avere un account sul servizio utilizzato, per cui non ho potuto creare ulteriori ricette.
 
-  
-
-
-<div align="center">
-  <!-- unnikked - responsive - footer --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3846608868139288" data-ad-slot="4255457452" data-ad-format="auto"></ins>
-</div>
 
  [1]: /wp-content/uploads/2015/04/Schermata-del-2015-04-01-193148.png
  [2]: /wp-content/uploads/2015/04/Schermata-del-2015-04-01-193449.png
