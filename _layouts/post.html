@@ -6,16 +6,6 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  <span class="categories">
-    {% if post %}
-      {% assign tags = post.tags %}
-    {% else %}
-      {% assign tags = page.tags %}
-    {% endif %}
-    {% for tag in tags %}
-    <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  </span>
 </div>
 
 <div class="related">
@@ -29,7 +19,6 @@ layout: default
             <small>{{ post.date | date_to_string }}</small>
           </a>
         </h3>
-        {{ post.content | truncatewords: 30 }}
       </li>
     {% endfor %}
   </ul>

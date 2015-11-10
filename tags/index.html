@@ -1,22 +1,15 @@
 ---
 layout: page
-permalink: /tags/
+title: Tag
+description: Contenuti per tag
+permalink: "tags/"
 ---
-<p align="center">
-{% for tag in site.tags %}
-  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
-    <a href="#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a>
-  </span>
-{% endfor %}
-</p>
-
 <div id="archives">
 {% for tag in site.tags %}
+  <hr>
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+    <h2 id="#{{ tag_name | slugize }}">{{ tag_name | upcase }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">

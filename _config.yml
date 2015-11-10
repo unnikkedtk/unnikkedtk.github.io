@@ -2,16 +2,15 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Unnikked
-tagline:          'esperienze personali in campo informatico'
-description:      'esperienze personali in campo informatico'
-name: unnikked
-baseurl:          /
+tagline:          '- Esperienze personali in campo informatico'
+description:      'Esperienze personali in campo informatico by <a href="https://twitter.com/unnikked">Nicola Malizia'
+url:              https://unnikked.tk
 
 author:
   name:           'Nicola Malizia'
@@ -20,7 +19,11 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          2.0.0
 
 github:
-  repo:           https://github.com/unnikked
+  repo:           https://github.com/poole/lanyon
+
+#Google Analytics
+google-analytics: true
+ga-id: "UA-36754539-1"
