@@ -19,19 +19,19 @@ Dove entra in gioco Zapier ? Tramite lo Zap Mail si può ottenere una casella pe
 
 Dalla dashboard creo un nuovo zap e scelgo sia come _trigger_ che come _action_ il servizio Zapier Mail. 
 
-![nuovo zap](https://lh3.googleusercontent.com/-b9lfogK3h9Q/VoKl8LCNhII/AAAAAAAAAIE/6rXaT6dcEcE/s0/Schermata+del+2015-12-29+16%253A24%253A57.png "nuovo-zap")
+![nuovo_zap](https://lh3.googleusercontent.com/-b9lfogK3h9Q/VoKl8LCNhII/AAAAAAAAAIE/6rXaT6dcEcE/s0/Schermata+del+2015-12-29+16%253A24%253A57.png)
 
 Assegno un nome alla casella email personale. 
 
-![casella personale](https://lh3.googleusercontent.com/-m498xj1oSCI/VoKmWdvZT4I/AAAAAAAAAIQ/zNZp8u7RBgQ/s0/Schermata+del+2015-12-29+16%253A26%253A53.png "casella personale")
+![casella_personale](https://lh3.googleusercontent.com/-m498xj1oSCI/VoKmWdvZT4I/AAAAAAAAAIQ/zNZp8u7RBgQ/s0/Schermata+del+2015-12-29+16%253A26%253A53.png)
 
 Configuro l'action secondo ovvie impostazioni, assicurandomi di mettere il mio indirizzo email come destinatario. 
 
-![configurazione](https://lh3.googleusercontent.com/-4V-S-Z5Bo0I/VoKmuFRSsrI/AAAAAAAAAIg/oPKf4mkHkkU/s0/Schermata+del+2015-12-29+16%253A28%253A29.png "configurazione")
+![configurazione](https://lh3.googleusercontent.com/-4V-S-Z5Bo0I/VoKmuFRSsrI/AAAAAAAAAIg/oPKf4mkHkkU/s0/Schermata+del+2015-12-29+16%253A28%253A29.png)
 
 Effettuo i test inviando una email all'indirizzo scelto dalla mia stessa email personale e controllo che il tutto funzioni. 
 
-![test funziona](https://lh3.googleusercontent.com/-dtqOx4cVLmM/VoKm-SE82tI/AAAAAAAAAIs/01NKjxppdb8/s0/Schermata+del+2015-12-29+16%253A29%253A39.png "test funziona")
+![test funziona](https://lh3.googleusercontent.com/-dtqOx4cVLmM/VoKm-SE82tI/AAAAAAAAAIs/01NKjxppdb8/s0/Schermata+del+2015-12-29+16%253A29%253A39.png)
 
 Tutto funziona, tutti felici. Speriamo che tale casella non venga bloccata in giro al momento delle iscrizioni. 
 
