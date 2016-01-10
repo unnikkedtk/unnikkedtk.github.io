@@ -2,7 +2,7 @@
 title: 'Appunti elementari su git'
 author: unnikked
 layout: post
-permalink: /selfoss-progetto-open-source-preferito/
+permalink: /appunti-elementari-su-git/
 
 tags:
   - git
