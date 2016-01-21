@@ -207,7 +207,7 @@ Se inizialmente non si salva la password nel keychain può essere fatto inseguit
 
 Nonostante jrnl segua le pratiche migliori, la sicurezza completa è una illusione. Più di preciso, jrnl lascerà tracce in memoria e nello storico dell'interprete dei comandi, è pensato di mantenere i diari sicuri durante il transito, per esempio per salvarli su Dropbox. Per disabilitare la registrazione dello storico del diario basta inserire nel file `.bashrc`:
 
-```shell
+```bash
 HISTIGNORE="jrnl *"
 ```
 
