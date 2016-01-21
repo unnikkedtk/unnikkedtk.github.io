@@ -48,9 +48,10 @@ y
 Journal will be encrypted.
 ```
 
-- **Path to your journal file (leave blank for ~/journal.txt): **va specificato il percorso del file di testo in cui il programma salverà le voci.
-- **Enter password for journal (leave blank for no encryption): **se si vuole crittografare le proprie note è necessario fornire una passphrase. 
+- **Path to your journal file (leave blank for ~/journal.txt)** va specificato il percorso del file di testo in cui il programma salverà le voci.
+- **Enter password for journal (leave blank for no encryption)** se si vuole crittografare le proprie note è necessario fornire una passphrase. 
 - **Do you want to store the password in your keychain? [Y/n]** nel caso si sia scelto di crittografare le note l'applicazione chiederà se può aggiungere la passphrase al keychain del sistema operativo, in questo modo non sarà necessario inserire alcuna password durante l'inserimento di una nuova voce.
+
 
 ## Guida all'uso
 
