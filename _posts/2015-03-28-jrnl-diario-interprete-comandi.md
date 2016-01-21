@@ -260,7 +260,7 @@ O usa il prompt dei comandi o un editor esterno per comporre le voci.
 
 Puoi configurare `_jrnl_` in modo da usare più diari (es. privato e lavoro) definendo più diari nel file `.jrnl_config`, per esempio:
 
-```
+```json
 {
 ...
   "journals": {
