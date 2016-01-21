@@ -1,5 +1,5 @@
 ---
-title: 'jrnl &#8211; un semplice diario per l&#8217;interprete dei comandi'
+title: 'jrnl - un semplice diario per l&#8217;interprete dei comandi'
 author: unnikked
 layout: post
 permalink: /jrnl-diario-interprete-comandi/
@@ -10,9 +10,9 @@ categories:
   - Ubuntu
 ---
 
-jrnl è una applicazione che permette di gestire un diario personale tramite la riga dei comandi. Le voci del diario sono salvate in un file di testo &#8211; puoi inserirlo nella cartella di Dropbox per una sincronizzazione istantanea e avrai la certezza il tuo diario sarà anche leggibile nel futuro, poiché utilizza un file di testo per salvare i dati.
+jrnl è una applicazione che permette di gestire un diario personale tramite la riga dei comandi. Le voci del diario sono salvate in un file di testo - puoi inserirlo nella cartella di Dropbox per una sincronizzazione istantanea e avrai la certezza il tuo diario sarà anche leggibile nel futuro, poiché utilizza un file di testo per salvare i dati.
 
-Opzionalmente è possibile crittografare il diario tramite l&#8217;algoritmo <a title="Advanced Encryption Standard - Wikipedia" href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard" target="_blank">AES 256-bit</a>.
+Opzionalmente è possibile crittografare il diario tramite l'algoritmo <a title="Advanced Encryption Standard - Wikipedia" href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard" target="_blank">AES 256-bit</a>.
 
 ## Installazione
 
@@ -67,11 +67,7 @@ E&#8217; possibile scrivere direttamente sulla linea di comando.
 
 <pre class="lang:sh decode:true ">jrnl today at 3am: I just met Steve Buscemi in a bar! He looked funny.</pre>
 
-<div class="su-note" style="border-color:#8cc5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-  <div class="su-note-inner su-clearfix" style="background-color:#9cdbff;border-color:#ebf8ff;color:#333333;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-    La maggior parte degli interpreti dei comandi contengono un insieme di caratteri riservati, come <code>#</code> e <code>*</code>, graffette non chiuse, parentesi e così via durante la scrittura di una voce. Per la scrittura di voci lunghe bisogna avviare jrnl senza parametri. Alternativamente si può usare un editor esterno.
-  </div>
-</div>
+> La maggior parte degli interpreti dei comandi contengono un insieme di caratteri riservati, come <code>#</code> e <code>*</code>, graffette non chiuse, parentesi e così via durante la scrittura di una voce. Per la scrittura di voci lunghe bisogna avviare jrnl senza parametri. Alternativamente si può usare un editor esterno.
 
 E&#8217; possibile importare una voce direttamente da un file:
 
@@ -101,11 +97,7 @@ Se non si vuole aggiungere una data (cioè per riferirsi alla data corrente), le
   * `jrnl *Best day of my life.`
   * `jrnl Best day of my life.*`
 
-<div class="su-note" style="border-color:#8cc5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-  <div class="su-note-inner su-clearfix" style="background-color:#9cdbff;border-color:#ebf8ff;color:#333333;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-    Bisogna prestare attenzione che il segno asterisco non sia circondato da spazi bianchi. Es. <code>jrnl Best day of my life! * </code> non funzionerà (il motivo è che * ha un significato speciale per la maggior parte degli interpreti dei comandi).
-  </div>
-</div>
+> Bisogna prestare attenzione che il segno asterisco non sia circondato da spazi bianchi. Es. <code>jrnl Best day of my life! * </code> non funzionerà (il motivo è che * ha un significato speciale per la maggior parte degli interpreti dei comandi).
 
 ### Visualizzazione
 
@@ -135,11 +127,7 @@ Visualizzerà tutte le voci in cui sia `@pinkie` o `@WorldDomination` compaiono.
 
 mostrerà le ultime cinque voci contenenti sia @pineapple che @lubricant. E&#8217; possibile cambiare quale simbolo associare per l&#8217;etichettatura nel file di configurazione.
 
-<div class="su-note" style="border-color:#8cc5e5;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-  <div class="su-note-inner su-clearfix" style="background-color:#9cdbff;border-color:#ebf8ff;color:#333333;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-    <code>jrnl @pinkie @WorldDomination</code> entrerà in modalità visualizzazione anche se non è stato fornito alcun parametro poiché tutte le stringhe inserite sembrano etichette.
-  </div>
-</div>
+> <code>jrnl @pinkie @WorldDomination</code> entrerà in modalità visualizzazione anche se non è stato fornito alcun parametro poiché tutte le stringhe inserite sembrano etichette.
 
 ### Modifica voci
 
@@ -187,19 +175,19 @@ Nonostante jrnl segua le pratiche migliori, la sicurezza completa è una illusio
 
 Se si vuole decriptare il diario manualmente è necessario scrivere un programma che supporta l&#8217;algoritmo AES in CBC. La chiave usata per crittografare è l&#8217;hash SHA-256 della password, il IV (vettore di inizializzazione) è salvato nei primi 16 byte del file criptato. Il testo in chiaro è codificato in UTF-8 e riempito secondo PKCS#7 prima di essere crittografato. Perciò, per decrittografare un diario in python:
 
-<pre class="lang:sh decode:true ">import hashlib, Crypto.Cipher
+```python
+import hashlib, Crypto.Cipher
 key = hashlib.sha256(my_password).digest()
 with open("my_journal.txt") as f:
     cipher = f.read()
     crypto = AES.new(key, AES.MODE_CBC, iv = cipher[:16])
     plain = crypto.decrypt(cipher[16:])
     plain = plain.strip(plain[-1])
-    plain = plain.decode("utf-8")</pre>
+    plain = plain.decode("utf-8")
+```
 
 ## Importazione ed esportazione
-
 ### Esportare etichette
-
 Con:
 
 <pre class="lang:sh decode:true ">jrnl --tags</pre>
@@ -272,13 +260,15 @@ O usa il prompt dei comandi o un editor esterno per comporre le voci.
 
 Puoi configurare `_jrnl_` in modo da usare più diari (es. privato e lavoro) definendo più diari nel file `.jrnl_config`, per esempio:
 
-<pre class="lang:js decode:true " >{
+```
+{
 ...
   "journals": {
     "default": "~/journal.txt",
     "work":    "~/work.txt"
   }
-}</pre>
+}
+```
 
 Il diario `default` è creato la prima volta che si avvia `_jrnl_`. E&#8217; possibile accedere al diario `work` usando `jrnl work` invece che `jrnl`, esempi:
 
