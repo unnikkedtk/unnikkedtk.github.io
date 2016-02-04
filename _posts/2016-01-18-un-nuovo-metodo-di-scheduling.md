@@ -53,7 +53,3 @@ curl -s \
 	-d value1="$TEXT"
 
 ```
-
-Se qualcuno ha letto sto post, non fatemi sentire solo e scrivetemi su twitter, se sei della mia zona ti offro un caffè. 
-
-(Vidimu si ancunu mi leja)
