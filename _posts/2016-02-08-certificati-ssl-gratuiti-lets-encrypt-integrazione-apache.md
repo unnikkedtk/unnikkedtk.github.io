@@ -1,5 +1,5 @@
 ---
-title: 'Come ottenere e integrare con Apache un certificato valido tramite Let's encrypt'
+title: Come ottenere e integrare con Apache un certificato valido tramite Let's encrypt
 author: unnikked
 layout: post
 permalink: /certificati-ssl-gratuiti-lets-encrypt-integrazione-apache/
